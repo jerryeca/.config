@@ -1,0 +1,23 @@
+# 设置提示符
+export PS1="\[\e[1m\]$\[\e[0m\]"
+
+# 设置别名
+alias ll="ls -la"
+alias gs="git status"
+
+# 禁用系统默认 shell 提示（如果有的话）
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
+# 设置历史记录
+export HISTSIZE=1000
+export HISTFILESIZE=2000
+
+# 启用命令补全
+if [ -f /etc/bash_completion ]; then
+  source /etc/bash_completion
+fi
+
+# 其他自定义配置
+if [ -f ~/.config/bash/bashrc ]; then
+  source ~/.config/bash/bashrc
+fi

@@ -1,0 +1,110 @@
+2025-02-10 11:29:52: App: Profile directory: /Users/jerry_cy/.config/joplin
+2025-02-10 11:29:52: App: Root profile directory: /Users/jerry_cy/.config/joplin
+2025-02-10 11:29:52: Database was open successfully
+2025-02-10 11:29:52: Checking for database schema update...
+2025-02-10 11:29:52: Current database version <null>
+2025-02-10 11:29:52: Upgrading database from version 0
+2025-02-10 11:29:52: Converting database to version 1
+2025-02-10 11:29:52: Converting database to version 2
+2025-02-10 11:29:52: Converting database to version 3
+2025-02-10 11:29:52: Converting database to version 4
+2025-02-10 11:29:52: Converting database to version 5
+2025-02-10 11:29:52: Converting database to version 6
+2025-02-10 11:29:52: Converting database to version 7
+2025-02-10 11:29:52: Converting database to version 8
+2025-02-10 11:29:52: Converting database to version 9
+2025-02-10 11:29:52: Converting database to version 10
+2025-02-10 11:29:52: Converting database to version 11
+2025-02-10 11:29:52: Converting database to version 12
+2025-02-10 11:29:52: Converting database to version 13
+2025-02-10 11:29:52: Converting database to version 14
+2025-02-10 11:29:52: Converting database to version 15
+2025-02-10 11:29:52: Converting database to version 16
+2025-02-10 11:29:52: Converting database to version 17
+2025-02-10 11:29:52: Converting database to version 18
+2025-02-10 11:29:52: Converting database to version 19
+2025-02-10 11:29:52: Converting database to version 20
+2025-02-10 11:29:52: Converting database to version 21
+2025-02-10 11:29:52: Converting database to version 22
+2025-02-10 11:29:52: Converting database to version 23
+2025-02-10 11:29:52: Converting database to version 24
+2025-02-10 11:29:52: Converting database to version 25
+2025-02-10 11:29:52: Converting database to version 26
+2025-02-10 11:29:52: Converting database to version 27
+2025-02-10 11:29:52: Converting database to version 28
+2025-02-10 11:29:52: Converting database to version 29
+2025-02-10 11:29:52: Converting database to version 30
+2025-02-10 11:29:52: Converting database to version 31
+2025-02-10 11:29:52: Converting database to version 32
+2025-02-10 11:29:52: Converting database to version 33
+2025-02-10 11:29:52: Converting database to version 34
+2025-02-10 11:29:52: Migration failed with fallback and will not be repeated - saving version number
+2025-02-10 11:29:52: Converting database to version 35
+2025-02-10 11:29:52: Converting database to version 36
+2025-02-10 11:29:52: Converting database to version 37
+2025-02-10 11:29:52: Converting database to version 38
+2025-02-10 11:29:52: Converting database to version 39
+2025-02-10 11:29:52: Converting database to version 40
+2025-02-10 11:29:52: Converting database to version 41
+2025-02-10 11:29:52: Converting database to version 42
+2025-02-10 11:29:52: Converting database to version 43
+2025-02-10 11:29:52: Converting database to version 44
+2025-02-10 11:29:52: Converting database to version 45
+2025-02-10 11:29:52: Converting database to version 46
+2025-02-10 11:29:52: Converting database to version 47
+2025-02-10 11:29:52: New version: 47. Previously recorded version: 0
+2025-02-10 11:29:52: Initializing tables...
+2025-02-10 11:29:52: KeychainService: Driver unsupported:electron-safeStorage
+2025-02-10 11:29:52: KeychainService: checking if keychain supported
+2025-02-10 11:29:52: KeychainService: tried to set and get password. Result was: mytest
+2025-02-10 11:29:52: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2025-02-10 11:29:52: handleSyncStartupOperation: Processing operation: 0
+2025-02-10 11:29:52: App: Client ID: f64d983f93364802a4c1ec78b4c1e7b7
+2025-02-10 11:29:52: First start: detected locale as en_US
+2025-02-10 11:29:52: models/Setting: Skipping all default migrations...
+2025-02-10 11:29:52: e2ee/utils: Trying to load 0 master keys...
+2025-02-10 11:29:52: e2ee/utils: Loaded master keys: 0
+2025-02-10 11:29:52: ResourceFetcher: Auto-add resources: Mode: always
+2025-02-10 11:29:52: permanentlyDeleteOldData: Processing items older than 7776000000ms...
+2025-02-10 11:29:52: ResourceFetcher: Auto-added resources: 0
+2025-02-10 11:29:52: permanentlyDeleteOldData: Items to permanently delete: {"folderIds":[],"noteIds":[]}
+2025-02-10 11:29:52: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-02-10 11:29:52: Running migration: 20
+2025-02-10 11:29:52: DeleteAction: MigrationService: ; Item IDs: 1
+2025-02-10 11:29:52: Running migration: 27
+2025-02-10 11:29:52: DeleteAction: MigrationService: ; Item IDs: 2
+2025-02-10 11:29:52: Running migration: 33
+2025-02-10 11:29:52: SearchEngine: Updating FTS table...
+2025-02-10 11:29:52: Updating items_normalized from {"updated_time":0,"id":""}
+2025-02-10 11:29:52: SearchEngine: Updated FTS table in 0ms. Inserted: 0. Deleted: 0
+2025-02-10 11:29:52: DeleteAction: MigrationService: ; Item IDs: 3
+2025-02-10 11:29:52: Running migration: 35
+2025-02-10 11:29:52: SearchEngine: Updating FTS table...
+2025-02-10 11:29:52: Updating items_normalized from {"updated_time":0,"id":""}
+2025-02-10 11:29:52: SearchEngine: Updated FTS table in 2ms. Inserted: 0. Deleted: 0
+2025-02-10 11:29:52: DeleteAction: MigrationService: ; Item IDs: 4
+2025-02-10 11:29:52: Running migration: 42
+2025-02-10 11:29:52: DeleteAction: MigrationService: ; Item IDs: 5
+2025-02-10 11:29:52: App: "syncInfoCache" was changed - setting up encryption related code
+2025-02-10 11:29:52: e2ee/utils: Trying to load 0 master keys...
+2025-02-10 11:29:52: e2ee/utils: Loaded master keys: 0
+2025-02-10 11:29:52: App: "syncInfoCache" was changed - setting up encryption related code
+2025-02-10 11:29:52: e2ee/utils: Trying to load 0 master keys...
+2025-02-10 11:29:52: e2ee/utils: Loaded master keys: 0
+2025-02-10 11:29:52: App: "syncInfoCache" was changed - setting up encryption related code
+2025-02-10 11:29:52: e2ee/utils: Trying to load 0 master keys...
+2025-02-10 11:29:52: e2ee/utils: Loaded master keys: 0
+2025-02-10 11:29:52: RevisionService: runInBackground: Starting background service with revision collection interval 600000
+2025-02-10 11:29:53: DecryptionWorker: cannot start because no master key is currently loaded.
+2025-02-10 11:29:56: RevisionService: maintenance: Starting...
+2025-02-10 11:29:56: RevisionService: maintenance: Service is enabled
+2025-02-10 11:29:56: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-02-10 11:29:56: RevisionService: maintenance: Done in 103ms
+2025-02-10 11:30:02: SearchEngine: Updating FTS table...
+2025-02-10 11:30:02: Updating items_normalized from {"updated_time":0,"id":""}
+2025-02-10 11:30:02: SearchEngine: Updated FTS table in 3ms. Inserted: 0. Deleted: 0
+2025-02-10 11:30:02: Preparing scheduled sync
+2025-02-10 11:30:02: Sync cancelled - no sync target is selected.
+2025-02-10 11:30:22: ResourceService::indexNoteResources: Start
+2025-02-10 11:30:22: ResourceService::indexNoteResources: Completed
+2025-02-10 11:30:22: ResourceService::deleteOrphanResources: []

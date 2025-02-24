@@ -1,0 +1,167 @@
+2025-02-12 17:57:04: App: Profile directory: /Users/jerry_cy/.config/joplin-desktop
+2025-02-12 17:57:04: App: Root profile directory: /Users/jerry_cy/.config/joplin-desktop
+2025-02-12 17:57:04: Database was open successfully
+2025-02-12 17:57:04: Checking for database schema update...
+2025-02-12 17:57:04: Current database version <null>
+2025-02-12 17:57:04: Upgrading database from version 0
+2025-02-12 17:57:04: Converting database to version 1
+2025-02-12 17:57:04: Converting database to version 2
+2025-02-12 17:57:04: Converting database to version 3
+2025-02-12 17:57:04: Converting database to version 4
+2025-02-12 17:57:04: Converting database to version 5
+2025-02-12 17:57:04: Converting database to version 6
+2025-02-12 17:57:04: Converting database to version 7
+2025-02-12 17:57:04: Converting database to version 8
+2025-02-12 17:57:04: Converting database to version 9
+2025-02-12 17:57:04: Converting database to version 10
+2025-02-12 17:57:04: Converting database to version 11
+2025-02-12 17:57:04: Converting database to version 12
+2025-02-12 17:57:04: Converting database to version 13
+2025-02-12 17:57:04: Converting database to version 14
+2025-02-12 17:57:04: Converting database to version 15
+2025-02-12 17:57:04: Converting database to version 16
+2025-02-12 17:57:04: Converting database to version 17
+2025-02-12 17:57:04: Converting database to version 18
+2025-02-12 17:57:04: Converting database to version 19
+2025-02-12 17:57:04: Converting database to version 20
+2025-02-12 17:57:04: Converting database to version 21
+2025-02-12 17:57:04: Converting database to version 22
+2025-02-12 17:57:04: Converting database to version 23
+2025-02-12 17:57:04: Converting database to version 24
+2025-02-12 17:57:04: Converting database to version 25
+2025-02-12 17:57:04: Converting database to version 26
+2025-02-12 17:57:04: Converting database to version 27
+2025-02-12 17:57:04: Converting database to version 28
+2025-02-12 17:57:04: Converting database to version 29
+2025-02-12 17:57:04: Converting database to version 30
+2025-02-12 17:57:04: Converting database to version 31
+2025-02-12 17:57:04: Converting database to version 32
+2025-02-12 17:57:04: Converting database to version 33
+2025-02-12 17:57:04: Converting database to version 34
+2025-02-12 17:57:04: Migration failed with fallback and will not be repeated - saving version number
+2025-02-12 17:57:04: Converting database to version 35
+2025-02-12 17:57:04: Converting database to version 36
+2025-02-12 17:57:04: Converting database to version 37
+2025-02-12 17:57:04: Converting database to version 38
+2025-02-12 17:57:04: Converting database to version 39
+2025-02-12 17:57:04: Converting database to version 40
+2025-02-12 17:57:04: Converting database to version 41
+2025-02-12 17:57:04: Converting database to version 42
+2025-02-12 17:57:04: Converting database to version 43
+2025-02-12 17:57:04: Converting database to version 44
+2025-02-12 17:57:04: Converting database to version 45
+2025-02-12 17:57:04: Converting database to version 46
+2025-02-12 17:57:04: Converting database to version 47
+2025-02-12 17:57:04: New version: 47. Previously recorded version: 0
+2025-02-12 17:57:04: Initializing tables...
+2025-02-12 17:57:04: KeychainService: checking if keychain supported
+2025-02-12 17:57:04: KeychainService: tried to set and get password. Result was: mytest
+2025-02-12 17:57:04: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2025-02-12 17:57:04: handleSyncStartupOperation: Processing operation: 0
+2025-02-12 17:57:04: App: Client ID: 5de78da063494007a3d5ea5078385d63
+2025-02-12 17:57:04: First start: detected locale as en_GB
+2025-02-12 17:57:04: models/Setting: Skipping all default migrations...
+2025-02-12 17:57:04: e2ee/utils: Trying to load 0 master keys...
+2025-02-12 17:57:04: e2ee/utils: Loaded master keys: 0
+2025-02-12 17:57:04: ResourceFetcher: Auto-add resources: Mode: always
+2025-02-12 17:57:04: permanentlyDeleteOldData: Processing items older than 7776000000ms...
+2025-02-12 17:57:04: ResourceFetcher: Auto-added resources: 0
+2025-02-12 17:57:04: permanentlyDeleteOldData: Items to permanently delete: {"folderIds":[],"noteIds":[]}
+2025-02-12 17:57:04: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-02-12 17:57:04: Running migration: 20
+2025-02-12 17:57:04: DeleteAction: MigrationService: ; Item IDs: 1
+2025-02-12 17:57:04: Running migration: 27
+2025-02-12 17:57:04: DeleteAction: MigrationService: ; Item IDs: 2
+2025-02-12 17:57:04: Running migration: 33
+2025-02-12 17:57:04: SearchEngine: Updating FTS table...
+2025-02-12 17:57:04: Updating items_normalized from {"updated_time":0,"id":""}
+2025-02-12 17:57:04: SearchEngine: Updated FTS table in 1ms. Inserted: 0. Deleted: 0
+2025-02-12 17:57:04: DeleteAction: MigrationService: ; Item IDs: 3
+2025-02-12 17:57:04: Running migration: 35
+2025-02-12 17:57:04: SearchEngine: Updating FTS table...
+2025-02-12 17:57:04: Updating items_normalized from {"updated_time":0,"id":""}
+2025-02-12 17:57:04: SearchEngine: Updated FTS table in 1ms. Inserted: 0. Deleted: 0
+2025-02-12 17:57:04: DeleteAction: MigrationService: ; Item IDs: 4
+2025-02-12 17:57:04: Running migration: 42
+2025-02-12 17:57:04: DeleteAction: MigrationService: ; Item IDs: 5
+2025-02-12 17:57:04: App: "syncInfoCache" was changed - setting up encryption related code
+2025-02-12 17:57:04: e2ee/utils: Trying to load 0 master keys...
+2025-02-12 17:57:04: e2ee/utils: Loaded master keys: 0
+2025-02-12 17:57:04: App: "syncInfoCache" was changed - setting up encryption related code
+2025-02-12 17:57:04: e2ee/utils: Trying to load 0 master keys...
+2025-02-12 17:57:04: e2ee/utils: Loaded master keys: 0
+2025-02-12 17:57:04: App: "syncInfoCache" was changed - setting up encryption related code
+2025-02-12 17:57:04: e2ee/utils: Trying to load 0 master keys...
+2025-02-12 17:57:04: e2ee/utils: Loaded master keys: 0
+2025-02-12 17:57:04: app.start: doing regular boot
+2025-02-12 17:57:04: App: "syncInfoCache" was changed - setting up encryption related code
+2025-02-12 17:57:04: e2ee/utils: Trying to load 0 master keys...
+2025-02-12 17:57:04: e2ee/utils: Loaded master keys: 0
+2025-02-12 17:57:04: App: "syncInfoCache" was changed - setting up encryption related code
+2025-02-12 17:57:04: e2ee/utils: Trying to load 0 master keys...
+2025-02-12 17:57:04: e2ee/utils: Loaded master keys: 0
+2025-02-12 17:57:04: App: "syncInfoCache" was changed - setting up encryption related code
+2025-02-12 17:57:04: e2ee/utils: Trying to load 0 master keys...
+2025-02-12 17:57:04: e2ee/utils: Loaded master keys: 0
+2025-02-12 17:57:04: RevisionService: runInBackground: Starting background service with revision collection interval 600000
+2025-02-12 17:57:04: PluginService: Loading plugin from /Users/jerry_cy/.config/joplin-desktop/cache/io.github.jackgruber.backup
+2025-02-12 17:57:04: PluginService: Loading plugin from /Users/jerry_cy/.config/joplin-desktop/cache/io.github.personalizedrefrigerator.js-draw
+2025-02-12 17:57:04: SpellCheckerServiceDriverNative: Set effective languages to "en-GB"
+2025-02-12 17:57:04: SpellCheckerServiceDriverNative: Set effective languages to "en-GB"
+2025-02-12 17:57:04: joplin.plugins: Starting plugin: io.github.jackgruber.backup
+2025-02-12 17:57:05: joplin.plugins: Starting plugin: io.github.personalizedrefrigerator.js-draw
+2025-02-12 17:57:05: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-02-12 17:57:05: useFormNote: [warn] Trying to reload note that has been deleted: <null>
+2025-02-12 17:57:05: joplin.plugins: Finished running onStart handler: io.github.personalizedrefrigerator.js-draw (Took 129ms)
+2025-02-12 17:57:05: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-02-12 17:57:05: joplin.plugins: Finished running onStart handler: io.github.jackgruber.backup (Took 346ms)
+2025-02-12 17:57:05: DecryptionWorker: cannot start because no master key is currently loaded.
+2025-02-12 17:57:08: RevisionService: maintenance: Starting...
+2025-02-12 17:57:08: RevisionService: maintenance: Service is enabled
+2025-02-12 17:57:08: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-02-12 17:57:08: RevisionService: maintenance: Done in 188ms
+2025-02-12 17:57:09: checkForUpdates: Starting...
+2025-02-12 17:57:09: checkForUpdates: Checking with options {"includePreReleases":false}
+2025-02-12 17:57:11: checkForUpdates: Current version: 3.2.12
+2025-02-12 17:57:11: checkForUpdates: Latest version: 3.2.12
+2025-02-12 17:57:11: checkForUpdates: Is Pre-release: <false>
+2025-02-12 17:57:11: checkForUpdates: Done.
+2025-02-12 17:57:14: SearchEngine: Updating FTS table...
+2025-02-12 17:57:14: Updating items_normalized from {"updated_time":0,"id":""}
+2025-02-12 17:57:14: SearchEngine: Updated FTS table in 37ms. Inserted: 5. Deleted: 0
+2025-02-12 17:57:20: Preparing scheduled sync
+2025-02-12 17:57:20: Sync cancelled - no sync target is selected.
+2025-02-12 17:57:34: ResourceService::indexNoteResources: Start
+2025-02-12 17:57:34: ResourceService::indexNoteResources: Completed
+2025-02-12 17:57:34: ResourceService::deleteOrphanResources: []
+2025-02-12 17:57:44: SearchEngine: Updating FTS table...
+2025-02-12 17:57:44: Updating items_normalized from {"updated_time":0,"id":""}
+2025-02-12 17:57:44: SearchEngine: Updated FTS table in 4ms. Inserted: 0. Deleted: 0
+2025-02-12 17:57:46: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-02-12 17:57:46: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-02-12 17:58:05: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-02-12 18:00:47: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-02-12 18:00:51: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-02-12 18:00:54: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-02-12 18:00:55: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-02-12 18:00:57: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-02-12 18:00:57: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-02-12 18:01:07: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-02-12 18:01:11: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-02-12 18:01:21: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-02-12 18:01:22: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-02-12 18:01:37: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-02-12 18:01:49: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-02-12 18:01:54: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-02-12 18:01:55: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-02-12 18:02:04: Running background sync on timer...
+2025-02-12 18:02:04: Preparing scheduled sync
+2025-02-12 18:02:04: Sync cancelled - no sync target is selected.
+2025-02-12 18:02:05: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-02-12 18:07:17: Running background sync on timer...
+2025-02-12 18:07:17: Preparing scheduled sync
+2025-02-12 18:07:17: Sync cancelled - no sync target is selected.
+2025-02-12 18:07:17: RevisionService: maintenance: Starting...
+2025-02-12 18:07:17: RevisionService: maintenance: Service is enabled
+2025-02-12 18:07:17: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-02-12 18:07:17: RevisionService: maintenance: Done in 113ms

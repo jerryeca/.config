@@ -1,0 +1,785 @@
+{
+  "coc-python|global": {
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [],
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [],
+    "/opt/homebrew/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.4-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.4-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "44763c18922b72ce55340d8277a620c8745f1e71e9aeb410eb353ef8bb0736af339f007f7faaf6e5a49d88313254971d725a163a1928f53952c886d0f9596c95"
+      },
+      "expiry": 1721963688837
+    },
+    "/opt/homebrew/bin/python3.12.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3.12",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.4-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.4-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "f31d5913256c617c931adb16decf8779f071c607b0b0d8fe85d5bd67cb242d02d9093ba41a926adba5a376fb7e73f41d1f392198b61be6d1ff918fea5726bce6"
+      },
+      "expiry": 1721963688894
+    },
+    "/opt/homebrew/opt/python@3.12/bin/python3.12.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/opt/python@3.12/bin/python3.12",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.4-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.4-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "d6b59c5b7444f974599fea6327dcfe6abbfe221688a0f60ab00467933760c2f8a47bdca06915031bc4ff77a1a26a05ba45f1e90cf999a773e20fd57b2d5ad145"
+      },
+      "expiry": 1721963688892
+    },
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/opt/python@3.12/bin/python3.12",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.4-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.4-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "d6b59c5b7444f974599fea6327dcfe6abbfe221688a0f60ab00467933760c2f8a47bdca06915031bc4ff77a1a26a05ba45f1e90cf999a773e20fd57b2d5ad145",
+        "type": "Unknown"
+      }
+    ],
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/opt/homebrew/opt/python@3.12/bin/python3.12",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.12.4-final",
+        "major": 3,
+        "minor": 12,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.12.4-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+      "fileHash": "d6b59c5b7444f974599fea6327dcfe6abbfe221688a0f60ab00467933760c2f8a47bdca06915031bc4ff77a1a26a05ba45f1e90cf999a773e20fd57b2d5ad145",
+      "type": "Unknown"
+    },
+    "preferredGlobalPyInterpreter": {
+      "architecture": 3,
+      "path": "/opt/homebrew/opt/python@3.12/bin/python3.12",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.12.4-final",
+        "major": 3,
+        "minor": 12,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.12.4-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+      "fileHash": "d6b59c5b7444f974599fea6327dcfe6abbfe221688a0f60ab00467933760c2f8a47bdca06915031bc4ff77a1a26a05ba45f1e90cf999a773e20fd57b2d5ad145",
+      "type": "Unknown"
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.6-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.6-final"
+        },
+        "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9",
+        "fileHash": "4fb1e1da4c9db44812a30b634ce4cbfbe387f571544495a620d4c5a9d0ef18424ee23b147f145519fb52891498075480e02a5e09385828fe0fe947e95f3e9d98"
+      },
+      "expiry": 1721963688893
+    },
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.4-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.4-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "44763c18922b72ce55340d8277a620c8745f1e71e9aeb410eb353ef8bb0736af339f007f7faaf6e5a49d88313254971d725a163a1928f53952c886d0f9596c95",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3.12",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.4-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.4-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "f31d5913256c617c931adb16decf8779f071c607b0b0d8fe85d5bd67cb242d02d9093ba41a926adba5a376fb7e73f41d1f392198b61be6d1ff918fea5726bce6",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.6-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.6-final"
+        },
+        "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9",
+        "fileHash": "4fb1e1da4c9db44812a30b634ce4cbfbe387f571544495a620d4c5a9d0ef18424ee23b147f145519fb52891498075480e02a5e09385828fe0fe947e95f3e9d98",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.6-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.6-final"
+        },
+        "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9",
+        "fileHash": "4fb1e1da4c9db44812a30b634ce4cbfbe387f571544495a620d4c5a9d0ef18424ee23b147f145519fb52891498075480e02a5e09385828fe0fe947e95f3e9d98",
+        "type": "Unknown"
+      }
+    ],
+    "PipEnvInformation": [],
+    "/opt/homebrew/opt/python@3.12/bin/python3.12.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "d6b59c5b7444f974599fea6327dcfe6abbfe221688a0f60ab00467933760c2f8a47bdca06915031bc4ff77a1a26a05ba45f1e90cf999a773e20fd57b2d5ad145",
+        "info": {
+          "architecture": 3,
+          "path": "/opt/homebrew/opt/python@3.12/bin/python3.12",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.12.4-final",
+            "major": 3,
+            "minor": 12,
+            "patch": 4,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.12.4-final"
+          },
+          "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+          "fileHash": "d6b59c5b7444f974599fea6327dcfe6abbfe221688a0f60ab00467933760c2f8a47bdca06915031bc4ff77a1a26a05ba45f1e90cf999a773e20fd57b2d5ad145",
+          "type": "Unknown",
+          "displayName": "Python 3.12.4 64-bit"
+        }
+      },
+      "expiry": 1721963688944
+    },
+    "/opt/homebrew/opt/python@3.12/bin/python3.12.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.12.4 64-bit",
+        "hash": "d6b59c5b7444f974599fea6327dcfe6abbfe221688a0f60ab00467933760c2f8a47bdca06915031bc4ff77a1a26a05ba45f1e90cf999a773e20fd57b2d5ad145-c839b1027530f6add1268b271ae54f7a"
+      },
+      "expiry": 1721963688906
+    },
+    "/opt/homebrew/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.12.4 64-bit",
+        "hash": "44763c18922b72ce55340d8277a620c8745f1e71e9aeb410eb353ef8bb0736af339f007f7faaf6e5a49d88313254971d725a163a1928f53952c886d0f9596c95-50623a3c8756f1144ffe897e5373b886"
+      },
+      "expiry": 1721963688942
+    },
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.6 64-bit",
+        "hash": "4fb1e1da4c9db44812a30b634ce4cbfbe387f571544495a620d4c5a9d0ef18424ee23b147f145519fb52891498075480e02a5e09385828fe0fe947e95f3e9d98-1312b019de9e863250c7cbe1539ad1ab"
+      },
+      "expiry": 1721963688945
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/opt/homebrew/opt/python@3.12/bin/python3.12",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.12.4-final",
+        "major": 3,
+        "minor": 12,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.12.4-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+      "fileHash": "d6b59c5b7444f974599fea6327dcfe6abbfe221688a0f60ab00467933760c2f8a47bdca06915031bc4ff77a1a26a05ba45f1e90cf999a773e20fd57b2d5ad145",
+      "type": "Unknown",
+      "displayName": "Python 3.12.4 64-bit"
+    },
+    "/opt/homebrew/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "44763c18922b72ce55340d8277a620c8745f1e71e9aeb410eb353ef8bb0736af339f007f7faaf6e5a49d88313254971d725a163a1928f53952c886d0f9596c95",
+        "info": {
+          "architecture": 3,
+          "path": "/opt/homebrew/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.12.4-final",
+            "major": 3,
+            "minor": 12,
+            "patch": 4,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.12.4-final"
+          },
+          "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+          "fileHash": "44763c18922b72ce55340d8277a620c8745f1e71e9aeb410eb353ef8bb0736af339f007f7faaf6e5a49d88313254971d725a163a1928f53952c886d0f9596c95",
+          "type": "Unknown",
+          "displayName": "Python 3.12.4 64-bit"
+        }
+      },
+      "expiry": 1721963688950
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "4fb1e1da4c9db44812a30b634ce4cbfbe387f571544495a620d4c5a9d0ef18424ee23b147f145519fb52891498075480e02a5e09385828fe0fe947e95f3e9d98",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.6-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 6,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.6-final"
+          },
+          "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9",
+          "fileHash": "4fb1e1da4c9db44812a30b634ce4cbfbe387f571544495a620d4c5a9d0ef18424ee23b147f145519fb52891498075480e02a5e09385828fe0fe947e95f3e9d98",
+          "type": "Unknown",
+          "displayName": "Python 3.9.6 64-bit"
+        }
+      },
+      "expiry": 1721963688952
+    },
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/opt/homebrew/opt/python@3.12/bin/python3.12",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.12.4-final",
+        "major": 3,
+        "minor": 12,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.12.4-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+      "fileHash": "d6b59c5b7444f974599fea6327dcfe6abbfe221688a0f60ab00467933760c2f8a47bdca06915031bc4ff77a1a26a05ba45f1e90cf999a773e20fd57b2d5ad145",
+      "type": "Unknown",
+      "displayName": "Python 3.12.4 64-bit"
+    },
+    "ProposeLSBanner": false
+  },
+  "coc-python|/Users/jerry_cy/Desktop/projects/cs61a/hog": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:2581e9307d9b608f5db7518e19871bc4": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:2581e9307d9b608f5db7518e19871bc4": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/jerry_cy/Desktop/projects/cs61a/hog": {
+      "architecture": 3,
+      "path": "/opt/homebrew/opt/python@3.12/bin/python3.12",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.12.4-final",
+        "major": 3,
+        "minor": 12,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.12.4-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+      "fileHash": "d6b59c5b7444f974599fea6327dcfe6abbfe221688a0f60ab00467933760c2f8a47bdca06915031bc4ff77a1a26a05ba45f1e90cf999a773e20fd57b2d5ad145",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/jerry_cy/Projects/cs61a/hog": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:3fcdc81be9daea45ffad375e88224f22": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:3fcdc81be9daea45ffad375e88224f22": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/jerry_cy/Projects/cs61a/hog": {
+      "architecture": 3,
+      "path": "/opt/homebrew/opt/python@3.12/bin/python3.12",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.12.4-final",
+        "major": 3,
+        "minor": 12,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.12.4-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+      "fileHash": "d6b59c5b7444f974599fea6327dcfe6abbfe221688a0f60ab00467933760c2f8a47bdca06915031bc4ff77a1a26a05ba45f1e90cf999a773e20fd57b2d5ad145",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/jerry_cy/Projects/cs61a/lab01": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:5d496f005b0e0b0020198af2cf2f0909": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:5d496f005b0e0b0020198af2cf2f0909": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/jerry_cy/Projects/cs61a/lab01": {
+      "architecture": 3,
+      "path": "/opt/homebrew/opt/python@3.12/bin/python3.12",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.12.4-final",
+        "major": 3,
+        "minor": 12,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.12.4-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+      "fileHash": "d6b59c5b7444f974599fea6327dcfe6abbfe221688a0f60ab00467933760c2f8a47bdca06915031bc4ff77a1a26a05ba45f1e90cf999a773e20fd57b2d5ad145",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/jerry_cy/Desktop/CHARLS2020r": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:2884266301b0dd797383dc11ff4de5ed": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:2884266301b0dd797383dc11ff4de5ed": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/jerry_cy/Desktop/CHARLS2020r": {
+      "architecture": 3,
+      "path": "/opt/homebrew/opt/python@3.12/bin/python3.12",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.12.4-final",
+        "major": 3,
+        "minor": 12,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.12.4-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+      "fileHash": "d6b59c5b7444f974599fea6327dcfe6abbfe221688a0f60ab00467933760c2f8a47bdca06915031bc4ff77a1a26a05ba45f1e90cf999a773e20fd57b2d5ad145",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/jerry_cy": {
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": []
+  },
+  "coc-python|/Users/jerry_cy/Projects/cs61a/lab02": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:bf4b55974dadb34ebe72b0d18b5d472c": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:bf4b55974dadb34ebe72b0d18b5d472c": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/jerry_cy/Projects/cs61a/lab02": {
+      "architecture": 3,
+      "path": "/opt/homebrew/opt/python@3.12/bin/python3.12",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.12.4-final",
+        "major": 3,
+        "minor": 12,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.12.4-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+      "fileHash": "d6b59c5b7444f974599fea6327dcfe6abbfe221688a0f60ab00467933760c2f8a47bdca06915031bc4ff77a1a26a05ba45f1e90cf999a773e20fd57b2d5ad145",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/jerry_cy/Projects/cs61a/lab00": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:9f82b3db9ccb9376e640fbb7834e027e": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:9f82b3db9ccb9376e640fbb7834e027e": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/jerry_cy/Projects/cs61a/lab00": {
+      "architecture": 3,
+      "path": "/opt/homebrew/opt/python@3.12/bin/python3.12",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.12.4-final",
+        "major": 3,
+        "minor": 12,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.12.4-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+      "fileHash": "d6b59c5b7444f974599fea6327dcfe6abbfe221688a0f60ab00467933760c2f8a47bdca06915031bc4ff77a1a26a05ba45f1e90cf999a773e20fd57b2d5ad145",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/jerry_cy/Projects/cs61a": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:906e64f8617b761468a00e951f578398": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:906e64f8617b761468a00e951f578398": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/jerry_cy/Projects/cs61a": {
+      "architecture": 3,
+      "path": "/opt/homebrew/opt/python@3.12/bin/python3.12",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.12.4-final",
+        "major": 3,
+        "minor": 12,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.12.4-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+      "fileHash": "d6b59c5b7444f974599fea6327dcfe6abbfe221688a0f60ab00467933760c2f8a47bdca06915031bc4ff77a1a26a05ba45f1e90cf999a773e20fd57b2d5ad145",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/jerry_cy/Projects/cs61a/lab03": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:02185d81c95ad40d6cb2d51ab5defe6c": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:02185d81c95ad40d6cb2d51ab5defe6c": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/jerry_cy/Projects/cs61a/lab03": {
+      "architecture": 3,
+      "path": "/opt/homebrew/opt/python@3.12/bin/python3.12",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.12.4-final",
+        "major": 3,
+        "minor": 12,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.12.4-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+      "fileHash": "d6b59c5b7444f974599fea6327dcfe6abbfe221688a0f60ab00467933760c2f8a47bdca06915031bc4ff77a1a26a05ba45f1e90cf999a773e20fd57b2d5ad145",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/jerry_cy/Projects/cs61a/test": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:c71dbb02f6b0af46561f33944331e94f": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:c71dbb02f6b0af46561f33944331e94f": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/jerry_cy/Projects/cs61a/test": {
+      "architecture": 3,
+      "path": "/opt/homebrew/opt/python@3.12/bin/python3.12",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.12.4-final",
+        "major": 3,
+        "minor": 12,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.12.4-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+      "fileHash": "d6b59c5b7444f974599fea6327dcfe6abbfe221688a0f60ab00467933760c2f8a47bdca06915031bc4ff77a1a26a05ba45f1e90cf999a773e20fd57b2d5ad145",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/jerry_cy/Projects/demo": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:eadbb896c2bfa0ae3f083fbb594a7037": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:eadbb896c2bfa0ae3f083fbb594a7037": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/jerry_cy/Projects/demo": {
+      "architecture": 3,
+      "path": "/opt/homebrew/opt/python@3.12/bin/python3.12",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.12.4-final",
+        "major": 3,
+        "minor": 12,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.12.4-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+      "fileHash": "d6b59c5b7444f974599fea6327dcfe6abbfe221688a0f60ab00467933760c2f8a47bdca06915031bc4ff77a1a26a05ba45f1e90cf999a773e20fd57b2d5ad145",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/jerry_cy/Projects/cs61a/hw02": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:8f4032753870c8ecd08a1ca97a5b39cf": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:8f4032753870c8ecd08a1ca97a5b39cf": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/jerry_cy/Projects/cs61a/hw02": {
+      "architecture": 3,
+      "path": "/opt/homebrew/opt/python@3.12/bin/python3.12",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.12.4-final",
+        "major": 3,
+        "minor": 12,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.12.4-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+      "fileHash": "d6b59c5b7444f974599fea6327dcfe6abbfe221688a0f60ab00467933760c2f8a47bdca06915031bc4ff77a1a26a05ba45f1e90cf999a773e20fd57b2d5ad145",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/jerry_cy/.config": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:496ce8fe3d40607f6f4f3b5ef01fd020": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:496ce8fe3d40607f6f4f3b5ef01fd020": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/jerry_cy/.config": {
+      "architecture": 3,
+      "path": "/opt/homebrew/opt/python@3.12/bin/python3.12",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.12.4-final",
+        "major": 3,
+        "minor": 12,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.12.4-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+      "fileHash": "d6b59c5b7444f974599fea6327dcfe6abbfe221688a0f60ab00467933760c2f8a47bdca06915031bc4ff77a1a26a05ba45f1e90cf999a773e20fd57b2d5ad145",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  }
+}

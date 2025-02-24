@@ -1,0 +1,19 @@
+[manager]
+prepend_keymap = [
+    #colemak movement
+
+    # hopping
+    {on = "u", run = "arrow -1", desc = "Move cursor down"},
+    {on = "e", run = "arrow 1", desc = "Move cursor down" },
+
+    # Navigation
+	{ on = "n", run = "leave", desc = "Go back to the parent directory" },
+	{ on = "i", run = "enter", desc = "Enter the child directory" },
+
+    { on = "N", run = "back",    desc = "Go back to the previous directory" },
+	{ on = "I", run = "forward", desc = "Go forward to the next directory" },
+
+    # Seeking
+	{ on = "U", run = "seek -5", desc = "Seek up 5 units in the preview" },
+	{ on = "E", run = "seek 5",  desc = "Seek down 5 units in the preview" },
+]

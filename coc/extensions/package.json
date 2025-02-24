@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "coc-clangd": ">=0.31.0",
+    "coc-rust-analyzer": ">=0.76.1",
+    "coc-markdownlint": ">=1.34.0",
+    "coc-vimlsp": ">=0.13.1"
+  },
+  "lastUpdate": 1721879068754
+}
