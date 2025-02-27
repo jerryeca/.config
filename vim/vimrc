@@ -11,6 +11,38 @@ set ignorecase
 set smartcase
 set smartindent
 
+" plugins
+call plug#begin('~/.config/vim/plugged')
+ "themes
+ Plug 'sainnhe/everforest'
+ " vim-polyglot for enhanced syntax highlighting
+ "Plug 'sheerun/vim-polyglot'
+ " coc.nvim for auto-completion
+ Plug 'neoclide/coc.nvim', {'branch': 'release'}
+ " airline
+ Plug 'vim-airline/vim-airline'
+ Plug 'vim-airline/vim-airline-themes'
+call plug#end()
+
+" set themes
+colorscheme everforest
+autocmd Syntax * highlight Comment cterm=None ctermfg=gray guifg=gray
+highlight Normal guibg=NONE ctermbg=NONE
+highlight NonText guibg=NONE ctermbg=NONE
+
+" set airline themes
+let g:airline#extensions#tabline#enabled = 1 " 启用顶部标签栏
+let g:airline#extensions#tabline#formatter = 'default' " 标签栏样式
+let g:airline_theme = 'everforest' " 使用 Everforest 主题
+
+" 设置 Airline 背景透明
+let g:airline_highlighting_cache = 1
+let g:airline#parts#ffenc#skip_expected_string='utf-8[unix]'
+highlight airline_c guibg=NONE ctermbg=NONE
+highlight airline_c_inactive guibg=NONE ctermbg=NONE
+highlight airline_c_insert guibg=NONE ctermbg=NONE
+highlight airline_c_replace guibg=NONE ctermbg=NONE
+highlight airline_c_visual guibg=NONE ctermbg=NONE
 " set Tab to 4 space
 set tabstop=4
 set shiftwidth=4
@@ -83,20 +115,4 @@ noremap <C-n> :previous<CR>
 inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm() : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-n>" : "\<S-Tab>"
 
-" plugins
-call plug#begin('~/.config/vim/plugged')
- "themes
- Plug 'sainnhe/everforest'
- " vim-polyglot for enhanced syntax highlighting
- "Plug 'sheerun/vim-polyglot'
- " coc.nvim for auto-completion
- Plug 'neoclide/coc.nvim', {'branch': 'release'}
- " airline
- Plug 'vim-airline/vim-airline'
-call plug#end()
-
-" set themes
-colorscheme everforest
-autocmd Syntax * highlight Comment cterm=None ctermfg=gray guifg=gray
-"
 

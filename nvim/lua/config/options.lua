@@ -35,3 +35,5 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 if vim.g.neovide then
     vim.g.neovide_transparency = 1
 end
+
+vim.g.transparent_enabled = true

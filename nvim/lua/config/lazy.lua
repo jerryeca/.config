@@ -111,6 +111,19 @@ require("lazy").setup({
         style = "storm", --themes
         transparent = true, --透明
     },
-}
-})
+},
+{
+    "xiyaowong/transparent.nvim",
+    config=function()
+        require("transparent").setup({
+            transparency =  0.8,
+            extra_groups = {
+                "NormalFloat",
+                "NvimTreeNormalA",
+                "TelescopeNormal",
+            },
+        })
+    end,
+ }
+ })
 
