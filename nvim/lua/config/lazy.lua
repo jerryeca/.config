@@ -104,6 +104,13 @@ require("lazy").setup({
     config = function()
         require("plugins.nvterm")
     end,
+},
+{
+    "sainnhe/everforest",
+    opts= { 
+        style = "storm", --themes
+        transparent = true, --透明
+    },
 }
 })
 

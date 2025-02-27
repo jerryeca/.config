@@ -24,3 +24,14 @@ vim.opt.hlsearch = false            -- do not highlight matches
 vim.opt.ignorecase = true           -- ignore case in searches by default
 vim.opt.smartcase = true            -- but make it case sensitive if an uppercase is entered
 
+vim.cmd("colorscheme everforest")
+vim.api.nvim_create_autocmd("ColorScheme", {
+    pattern = "*",
+    callback = function()
+        vim.cmd([[highlight Normal guibg=NONE ctermbg=NONE]])
+        vim.cmd([[highlight NormalNC guibg=NONE ctermbg=NONE]])
+    end
+})
+if vim.g.neovide then
+    vim.g.neovide_transparency = 1
+end

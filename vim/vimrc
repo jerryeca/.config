@@ -83,26 +83,20 @@ noremap <C-n> :previous<CR>
 inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm() : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-n>" : "\<S-Tab>"
 
-"" plugins
-"call plug#begin('~/.config/vim/plugged')
-" " vim-polyglot for enhanced syntax highlighting
-" "Plug 'sheerun/vim-polyglot'
-" " coc.nvim for auto-completion
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" " airline
-" Plug 'vim-airline/vim-airline'
-" Plug 'vim-airline/vim-airline-themes'
-" " themes
-" "Plug 'sainnhe/gruvbox-material'
-" Plug 'morhetz/gruvbox'
-"
-"call plug#end()
+" plugins
+call plug#begin('~/.config/vim/plugged')
+ "themes
+ Plug 'sainnhe/everforest'
+ " vim-polyglot for enhanced syntax highlighting
+ "Plug 'sheerun/vim-polyglot'
+ " coc.nvim for auto-completion
+ Plug 'neoclide/coc.nvim', {'branch': 'release'}
+ " airline
+ Plug 'vim-airline/vim-airline'
+call plug#end()
 
-"" set themes
-"set background=dark
-"colorscheme gruvbox
-"autocmd Syntax * highlight Comment cterm=None ctermfg=gray guifg=gray
+" set themes
+colorscheme everforest
+autocmd Syntax * highlight Comment cterm=None ctermfg=gray guifg=gray
 "
-"" set Airline themes
-"let g:airline_theme = 'gruvbox'
 
