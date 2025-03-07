@@ -1,0 +1,11 @@
+[text/plain]
+open = "nvim"
+
+[text/*]
+open = "nvim"
+
+[text/markdown]
+open = "nvim"
+
+[text/x-python]
+open = "nvim"

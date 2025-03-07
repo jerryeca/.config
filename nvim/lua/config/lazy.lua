@@ -96,6 +96,7 @@ require("lazy").setup({
 },
 {
     'nvim-tree/nvim-tree.lua',
+    dependencies = { "nvim-tree/nvim-web-devicons" },
     config = function()
         require('plugins.nvim-tree')
     end,
@@ -124,6 +125,20 @@ require("lazy").setup({
             },
         })
     end,
- }
- })
+},
+{
+    "goolord/alpha-nvim",
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+    config = function()
+        require("plugins.alpha")
+    end,
+},
+{
+  "akinsho/toggleterm.nvim",
+  version = "*",
+  config = function()
+      require('plugins.toggleterm')
+  end,
+}
+})
 

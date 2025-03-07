@@ -128,21 +128,25 @@ alias pip='python3 -m pip'
 alias s='source'
 alias t='tmux'
 alias ta='tmux a'
-alias gc='git clone'
+alias gg='git clone'
 alias ga='git add'
 alias gu='git push'
 alias gd='git pull'
 alias gs='git status'
+alias gc='git commit -m'
 alias f='fzf'
 alias vim='nvim'
 alias ls='lsd'
 alias m='btop'
 alias lzg='lazygit'
 alias lzd='lazydocker'
+
 #tmux
 export TMUX_CONF="$HOME/.config/tmux/tmux.conf"
 #vim
 export MYVIMRC="$HOME/.config/vim/vimrc"
+#vscode
+export VSCODE_USER_DATA_DIR="$HOME/.config/.vscode"
 
 #yazi
 function y() {
@@ -186,4 +190,5 @@ zinit light Aloxaf/fzf-tab
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 #[[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
+
 

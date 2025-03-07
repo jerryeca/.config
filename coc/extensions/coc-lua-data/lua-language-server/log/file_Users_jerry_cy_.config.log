@@ -1,0 +1,1389 @@
+[20:28:09.468][info] [#0:/Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:68]: Lua Lsp startup, root: 	/Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server
+[20:28:09.469][info] [#0:/Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:69]: ROOT:	/Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server
+[20:28:09.469][info] [#0:/Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:70]: LOGPATH:	/Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/log
+[20:28:09.469][info] [#0:/Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:71]: METAPATH:	/Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta
+[20:28:09.470][info] [#0:/Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:72]: VERSION:	3.13.6
+[20:28:09.497][info] [#0:script/proto/proto.lua:260]: Listen Mode: stdio
+[20:28:09.497][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 2.258 MB
+        # 00 : 2.258 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[20:28:09.607][info] [#0:script/client.lua:657]: Client init	{
+  capabilities = {
+    general = {
+      markdown = {
+        parser = "marked",
+        version = "7.0.5"
+      },
+      positionEncodings = { "utf-16" },
+      regularExpressions = {
+        engine = "ECMAScript",
+        version = "ES2020"
+      },
+      staleRequestSupport = {
+        cancel = true,
+        retryOnContentModified = { "textDocument/inlayHint", "textDocument/semanticTokens/full", "textDocument/semanticTokens/range", "textDocument/semanticTokens/full/delta" }
+      }
+    },
+    textDocument = {
+      callHierarchy = {
+        dynamicRegistration = true
+      },
+      codeAction = {
+        codeActionLiteralSupport = {
+          codeActionKind = {
+            valueSet = { "", "quickfix", "refactor", "refactor.extract", "refactor.inline", "refactor.rewrite", "source", "source.organizeImports" }
+          }
+        },
+        dataSupport = true,
+        disabledSupport = true,
+        dynamicRegistration = true,
+        honorsChangeAnnotations = false,
+        isPreferredSupport = true,
+        resolveSupport = {
+          properties = { "edit" }
+        }
+      },
+      codeLens = {
+        dynamicRegistration = true
+      },
+      colorProvider = {
+        dynamicRegistration = true
+      },
+      completion = {
+        completionItem = {
+          commitCharactersSupport = true,
+          deprecatedSupport = true,
+          documentationFormat = { "markdown", "plaintext" },
+          insertReplaceSupport = true,
+          insertTextModeSupport = {
+            valueSet = { 1, 2 }
+          },
+          labelDetailsSupport = true,
+          preselectSupport = true,
+          resolveSupport = {
+            properties = { "documentation", "detail", "additionalTextEdits" }
+          },
+          snippetSupport = true,
+          tagSupport = {
+            valueSet = { 1 }
+          }
+        },
+        completionItemKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25 }
+        },
+        completionList = {
+          itemDefaults = { "commitCharacters", "editRange", "insertTextFormat", "insertTextMode" }
+        },
+        contextSupport = true,
+        dynamicRegistration = true,
+        insertTextMode = 2
+      },
+      declaration = {
+        dynamicRegistration = true,
+        linkSupport = true
+      },
+      definition = {
+        dynamicRegistration = true,
+        linkSupport = true
+      },
+      diagnostic = {
+        dynamicRegistration = true,
+        relatedDocumentSupport = true
+      },
+      documentHighlight = {
+        dynamicRegistration = true
+      },
+      documentLink = {
+        dynamicRegistration = true,
+        tooltipSupport = true
+      },
+      documentSymbol = {
+        dynamicRegistration = true,
+        hierarchicalDocumentSymbolSupport = true,
+        labelSupport = true,
+        symbolKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 }
+        },
+        tagSupport = {
+          valueSet = { 1 }
+        }
+      },
+      foldingRange = {
+        dynamicRegistration = true,
+        foldingRange = {
+          collapsedText = false
+        },
+        foldingRangeKind = {
+          valueSet = { "comment", "imports", "region" }
+        },
+        lineFoldingOnly = true,
+        rangeLimit = 5000
+      },
+      formatting = {
+        dynamicRegistration = true
+      },
+      hover = {
+        contentFormat = { "markdown", "plaintext" },
+        dynamicRegistration = true
+      },
+      implementation = {
+        dynamicRegistration = true,
+        linkSupport = true
+      },
+      inlayHint = {
+        dynamicRegistration = true,
+        resolveSupport = {
+          properties = { "tooltip", "textEdits", "label.tooltip", "label.location", "label.command" }
+        }
+      },
+      inlineValue = {
+        dynamicRegistration = true
+      },
+      linkedEditingRange = {
+        dynamicRegistration = true
+      },
+      onTypeFormatting = {
+        dynamicRegistration = true
+      },
+      publishDiagnostics = {
+        codeDescriptionSupport = true,
+        dataSupport = true,
+        relatedInformation = true,
+        tagSupport = {
+          valueSet = { 1, 2 }
+        },
+        versionSupport = true
+      },
+      rangeFormatting = {
+        dynamicRegistration = true
+      },
+      references = {
+        dynamicRegistration = true
+      },
+      rename = {
+        dynamicRegistration = true,
+        honorsChangeAnnotations = true,
+        prepareSupport = true,
+        prepareSupportDefaultBehavior = 1
+      },
+      selectionRange = {
+        dynamicRegistration = true
+      },
+      semanticTokens = {
+        augmentsSyntaxTokens = true,
+        dynamicRegistration = true,
+        formats = { "relative" },
+        multilineTokenSupport = false,
+        overlappingTokenSupport = false,
+        requests = {
+          full = {
+            delta = true
+          },
+          range = true
+        },
+        serverCancelSupport = true,
+        tokenModifiers = { "declaration", "definition", "readonly", "static", "deprecated", "abstract", "async", "modification", "documentation", "defaultLibrary" },
+        tokenTypes = { "namespace", "type", "class", "enum", "interface", "struct", "typeParameter", "parameter", "variable", "property", "enumMember", "event", "function", "method", "macro", "keyword", "modifier", "comment", "string", "number", "regexp", "decorator", "operator" }
+      },
+      signatureHelp = {
+        contextSupport = true,
+        dynamicRegistration = true,
+        signatureInformation = {
+          activeParameterSupport = true,
+          documentationFormat = { "markdown", "plaintext" },
+          parameterInformation = {
+            labelOffsetSupport = true
+          }
+        }
+      },
+      synchronization = {
+        didSave = true,
+        dynamicRegistration = true,
+        willSave = true,
+        willSaveWaitUntil = true
+      },
+      typeDefinition = {
+        dynamicRegistration = true,
+        linkSupport = true
+      },
+      typeHierarchy = {
+        dynamicRegistration = true
+      }
+    },
+    window = {
+      showDocument = {
+        support = true
+      },
+      showMessage = {
+        messageActionItem = {
+          additionalPropertiesSupport = true
+        }
+      },
+      workDoneProgress = true
+    },
+    workspace = {
+      applyEdit = true,
+      codeLens = {
+        refreshSupport = true
+      },
+      configuration = true,
+      diagnostics = {
+        refreshSupport = true
+      },
+      didChangeConfiguration = {
+        dynamicRegistration = true
+      },
+      didChangeWatchedFiles = {
+        dynamicRegistration = true,
+        relativePatternSupport = true
+      },
+      executeCommand = {
+        dynamicRegistration = true
+      },
+      fileOperations = {
+        didCreate = true,
+        didDelete = true,
+        didRename = true,
+        dynamicRegistration = true,
+        willCreate = true,
+        willDelete = true,
+        willRename = true
+      },
+      inlayHint = {
+        refreshSupport = true
+      },
+      inlineValue = {
+        refreshSupport = true
+      },
+      semanticTokens = {
+        refreshSupport = true
+      },
+      symbol = {
+        dynamicRegistration = true,
+        resolveSupport = {
+          properties = { "location.range" }
+        },
+        symbolKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 }
+        },
+        tagSupport = {
+          valueSet = { 1 }
+        }
+      },
+      workspaceEdit = {
+        changeAnnotationSupport = {
+          groupsOnLabel = false
+        },
+        documentChanges = true,
+        failureHandling = "undo",
+        normalizesLineEndings = true,
+        resourceOperations = { "create", "rename", "delete" }
+      },
+      workspaceFolders = true
+    }
+  },
+  clientInfo = {
+    name = "coc.nvim",
+    version = "0.0.82"
+  },
+  initializationOptions = {
+    changeConfiguration = true
+  },
+  locale = "en_US",
+  processId = 45836,
+  rootPath = "/Users/jerry_cy/.config",
+  rootUri = "file:///Users/jerry_cy/.config",
+  trace = "off",
+  workDoneToken = "81dfcce1-9895-408f-bbae-b66c9aefc529",
+  workspaceFolders = { {
+      name = ".config",
+      uri = "file:///Users/jerry_cy/.config"
+    } }
+}
+[20:28:09.607][info] [#0:script/language.lua:137]: VSC language: en_US
+[20:28:09.607][info] [#0:script/language.lua:138]: LS  language: en-us
+[20:28:09.607][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///Users/jerry_cy/.config
+[20:28:09.607][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/log/file_Users_jerry_cy_.config.log
+[20:28:09.608][info] [#0:script/workspace/workspace.lua:48]: Workspace create: 	file:///Users/jerry_cy/.config
+[20:28:09.928][info] [#0:script/provider/provider.lua:49]: Load config from client	file:///Users/jerry_cy/.config
+[20:28:09.929][info] [#0:script/provider/provider.lua:50]: {
+  Lua = {
+    addonManager = {
+      enable = true
+    },
+    codeLens = {
+      enable = false
+    },
+    completion = {
+      autoRequire = true,
+      callSnippet = "Disable",
+      displayContext = 0,
+      enable = true,
+      keywordSnippet = "Replace",
+      postfix = "@",
+      requireSeparator = ".",
+      showParams = true,
+      showWord = "Fallback",
+      workspaceWord = true
+    },
+    diagnostics = {
+      disable = {},
+      disableScheme = { "git" },
+      enable = true,
+      globals = {},
+      ignoredFiles = "Opened",
+      libraryFiles = "Opened",
+      unusedLocalExclude = {},
+      workspaceDelay = 3000,
+      workspaceEvent = "OnSave",
+      workspaceRate = 100
+    },
+    doc = {
+      packageName = {},
+      privateName = {},
+      protectedName = {}
+    },
+    format = {
+      defaultConfig = {},
+      enable = true
+    },
+    hint = {
+      arrayIndex = "Auto",
+      await = true,
+      enable = false,
+      paramName = "All",
+      paramType = true,
+      semicolon = "SameLine",
+      setType = false
+    },
+    hover = {
+      enable = true,
+      enumsLimit = 5,
+      expandAlias = true,
+      previewFields = 50,
+      viewNumber = true,
+      viewString = true,
+      viewStringMax = 1000
+    },
+    misc = {
+      executablePath = "",
+      parameters = {}
+    },
+    runtime = {
+      fileEncoding = "utf8",
+      meta = "${version} ${language} ${encoding}",
+      nonstandardSymbol = {},
+      path = { "?.lua", "?/init.lua" },
+      pathStrict = false,
+      plugin = "",
+      pluginArgs = {},
+      special = {},
+      unicodeName = false,
+      version = "Lua 5.4"
+    },
+    semantic = {
+      annotation = true,
+      enable = true,
+      keyword = false,
+      variable = true
+    },
+    signatureHelp = {
+      enable = true
+    },
+    spell = {
+      dict = {}
+    },
+    type = {
+      castNumberToInteger = true,
+      weakNilCheck = false,
+      weakUnionCheck = false
+    },
+    window = {
+      progressBar = true,
+      statusBar = true
+    },
+    workspace = {
+      checkThirdParty = true,
+      ignoreDir = { ".vscode" },
+      ignoreSubmodules = true,
+      library = {},
+      maxPreload = 5000,
+      preloadFileSize = 500,
+      useGitIgnore = true,
+      userThirdParty = {}
+    }
+  }
+}
+[20:28:10.036][info] [#0:script/provider/completion.lua:43]: Enable completion.
+[20:28:10.036][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[20:28:10.037][info] [#0:script/provider/provider.lua:66]: {
+  Lua = {
+    addonManager = {
+      enable = true
+    },
+    codeLens = {
+      enable = false
+    },
+    completion = {
+      autoRequire = true,
+      callSnippet = "Disable",
+      displayContext = 0,
+      enable = true,
+      keywordSnippet = "Replace",
+      postfix = "@",
+      requireSeparator = ".",
+      showParams = true,
+      showWord = "Fallback",
+      workspaceWord = true
+    },
+    diagnostics = {
+      disable = {},
+      disableScheme = { "git" },
+      enable = true,
+      globals = {},
+      ignoredFiles = "Opened",
+      libraryFiles = "Opened",
+      unusedLocalExclude = {},
+      workspaceDelay = 3000,
+      workspaceEvent = "OnSave",
+      workspaceRate = 100
+    },
+    doc = {
+      packageName = {},
+      privateName = {},
+      protectedName = {}
+    },
+    format = {
+      defaultConfig = {},
+      enable = true
+    },
+    hint = {
+      arrayIndex = "Auto",
+      await = true,
+      enable = false,
+      paramName = "All",
+      paramType = true,
+      semicolon = "SameLine",
+      setType = false
+    },
+    hover = {
+      enable = true,
+      enumsLimit = 5,
+      expandAlias = true,
+      previewFields = 50,
+      viewNumber = true,
+      viewString = true,
+      viewStringMax = 1000
+    },
+    misc = {
+      executablePath = "",
+      parameters = {}
+    },
+    runtime = {
+      fileEncoding = "utf8",
+      meta = "${version} ${language} ${encoding}",
+      nonstandardSymbol = {},
+      path = { "?.lua", "?/init.lua" },
+      pathStrict = false,
+      plugin = "",
+      pluginArgs = {},
+      special = {},
+      unicodeName = false,
+      version = "Lua 5.4"
+    },
+    semantic = {
+      annotation = true,
+      enable = true,
+      keyword = false,
+      variable = true
+    },
+    signatureHelp = {
+      enable = true
+    },
+    spell = {
+      dict = {}
+    },
+    type = {
+      castNumberToInteger = true,
+      weakNilCheck = false,
+      weakUnionCheck = false
+    },
+    window = {
+      progressBar = true,
+      statusBar = true
+    },
+    workspace = {
+      checkThirdParty = true,
+      ignoreDir = { ".vscode" },
+      ignoreSubmodules = true,
+      library = {},
+      maxPreload = 5000,
+      preloadFileSize = 500,
+      useGitIgnore = true,
+      userThirdParty = {}
+    }
+  }
+}
+[20:28:10.265][info] [#0:script/plugin.lua:125]: plugin path:	/Users/jerry_cy/.config
+[20:28:10.265][warn] [#0:script/plugin.lua:140]: plugin not found:	/Users/jerry_cy/.config
+[20:28:10.265][info] [#0:script/library.lua:212]: Init builtin library at:	file:///Users/jerry_cy/.config
+[20:28:10.284][info] [#0:script/library.lua:212]: Init builtin library at:	nil
+[20:28:10.399][info] [#0:script/workspace/workspace.lua:324]: Preload start:	file:///Users/jerry_cy/.config
+[20:28:10.406][info] [#0:script/workspace/workspace.lua:330]: Scan files at:	file:///Users/jerry_cy/.config
+[20:28:10.408][info] [#0:script/workspace/workspace.lua:324]: Preload start:	<fallback>
+[20:28:10.411][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
+[20:28:10.411][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
+[20:28:10.411][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
+[20:28:10.411][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[20:28:10.411][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[20:28:10.412][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[20:28:10.412][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[20:28:10.412][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[20:28:10.412][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
+[20:28:10.413][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[20:28:10.413][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[20:28:10.513][info] [#0:script/workspace/workspace.lua:379]: Found 11 files at:	<fallback>
+[20:28:10.513][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	<fallback>
+[20:28:10.513][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua , size = 5.600 KB
+[20:28:10.515][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[20:28:10.516][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua , size = 4.445 KB
+[20:28:10.518][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
+[20:28:10.518][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua , size = 6.364 KB
+[20:28:10.520][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[20:28:10.520][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua , size = 15.841 KB
+[20:28:10.524][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[20:28:10.524][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua , size = 2.590 KB
+[20:28:10.525][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[20:28:10.525][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua , size = 0.302 KB
+[20:28:10.526][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[20:28:10.526][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua , size = 2.386 KB
+[20:28:10.526][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[20:28:10.526][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua , size = 7.637 KB
+[20:28:10.529][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[20:28:10.529][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua , size = 2.944 KB
+[20:28:10.529][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
+[20:28:10.529][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua , size = 8.509 KB
+[20:28:10.532][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
+[20:28:10.532][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua , size = 6.327 KB
+[20:28:10.534][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
+[20:28:10.629][info] [#0:script/workspace/loading.lua:172]: Loaded files takes [0.108] sec: <fallback>
+[20:28:10.629][info] [#0:script/workspace/loading.lua:181]: Compile files takes [0.000] sec: <fallback>
+[20:28:10.629][info] [#0:script/workspace/loading.lua:182]: Loaded finish:	<fallback>
+[20:28:10.629][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	<fallback>
+[20:28:10.989][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
+[20:28:10.989][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
+[20:28:10.989][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
+[20:28:10.989][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[20:28:10.989][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[20:28:10.989][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[20:28:10.989][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[20:28:10.989][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[20:28:10.989][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
+[20:28:10.989][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[20:28:10.989][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[20:28:11.094][info] [#0:script/workspace/workspace.lua:379]: Found 1232 files at:	file:///Users/jerry_cy/.config
+[20:28:11.094][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	file:///Users/jerry_cy/.config
+[20:28:11.094][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[20:28:11.094][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[20:28:11.094][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[20:28:11.094][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[20:28:11.094][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
+[20:28:11.094][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
+[20:28:11.094][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[20:28:11.094][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[20:28:11.095][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[20:28:11.095][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[20:28:11.095][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[20:28:11.095][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[20:28:11.095][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[20:28:11.095][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[20:28:11.095][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[20:28:11.095][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[20:28:11.095][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
+[20:28:11.095][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
+[20:28:11.095][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
+[20:28:11.095][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
+[20:28:11.095][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
+[20:28:11.095][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
+[20:28:11.095][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/nvim/lua/plugins/ui.lua
+[20:28:11.095][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/vim/plugged/coc.nvim/plugin/coc.lua , size = 0.318 KB
+[20:28:11.096][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/vim/plugged/everforest/lua/lualine/themes/everforest.lua , size = 1.874 KB
+[20:28:11.098][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/vim/plugged/coc.nvim/lua/coc/diagnostic.lua , size = 0.972 KB
+[20:28:11.099][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/vim/plugged/coc.nvim/lua/coc/highlight.lua , size = 2.349 KB
+[20:28:11.101][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/nvim/init.lua , size = 0.073 KB
+[20:28:11.102][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/vim/plugged/coc.nvim/doc/coc-example-config.lua , size = 7.513 KB
+[20:28:11.106][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/nvim/lua/config/keymaps.lua , size = 5.715 KB
+[20:28:11.108][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/nvim/lua/config/options.lua , size = 1.754 KB
+[20:28:11.114][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/nvim/lua/plugins/neovim-remote.lua , size = 0.000 KB
+[20:28:11.114][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/nvim/lua/config/lazy.lua , size = 2.812 KB
+[20:28:11.115][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/nvim/lua/plugins/gruvbox.lua , size = 0.646 KB
+[20:28:11.115][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/nvim/lua/plugins/copilot.lua , size = 0.722 KB
+[20:28:11.116][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/nvim/lua/plugins/nvim-treesitter.lua , size = 0.143 KB
+[20:28:11.116][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/nvim/lua/plugins/nvim-tree.lua , size = 2.713 KB
+[20:28:11.117][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/nvim/lua/plugins/nvim-cmp.lua , size = 1.537 KB
+[20:28:11.118][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/nvim/lua/plugins/nvim-telescope.lua , size = 0.146 KB
+[20:28:11.118][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/nvim/lua/plugins/nvterm.lua , size = 0.804 KB
+[20:28:11.118][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/nvim/lua/plugins/nvim-lspconfig.lua , size = 0.722 KB
+[20:28:11.119][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/locale/ja-jp/meta.lua , size = 37.868 KB
+[20:28:11.124][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/locale/ja-jp/script.lua , size = 44.763 KB
+[20:28:11.129][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/locale/ja-jp/setting.lua , size = 28.682 KB
+[20:28:11.135][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/locale/zh-cn/meta.lua , size = 30.498 KB
+[20:28:11.139][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/locale/zh-cn/script.lua , size = 34.601 KB
+[20:28:11.143][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/locale/zh-tw/meta.lua , size = 30.774 KB
+[20:28:11.152][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/locale/zh-cn/setting.lua , size = 20.684 KB
+[20:28:11.155][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/locale/zh-tw/setting.lua , size = 24.354 KB
+[20:28:11.159][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/locale/zh-tw/script.lua , size = 36.587 KB
+[20:28:11.162][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/locale/pt-br/meta.lua , size = 34.379 KB
+[20:28:11.166][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/locale/pt-br/script.lua , size = 39.273 KB
+[20:28:11.170][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/locale/en-us/meta.lua , size = 31.741 KB
+[20:28:11.174][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/locale/en-us/script.lua , size = 35.396 KB
+[20:28:11.177][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/locale/pt-br/setting.lua , size = 28.139 KB
+[20:28:11.181][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua , size = 2.128 KB
+[20:28:11.182][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/bin/main.lua , size = 2.162 KB
+[20:28:11.187][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/template/builtin.lua , size = 0.302 KB
+[20:28:11.188][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/template/table.new.lua , size = 0.201 KB
+[20:28:11.188][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/template/package.lua , size = 1.223 KB
+[20:28:11.189][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/template/utf8.lua , size = 1.575 KB
+[20:28:11.189][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/template/jit.profile.lua , size = 0.381 KB
+[20:28:11.190][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/template/ffi.lua , size = 2.562 KB
+[20:28:11.191][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/template/bit.lua , size = 1.353 KB
+[20:28:11.192][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/template/io.lua , size = 3.643 KB
+[20:28:11.193][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/template/jit.util.lua , size = 2.018 KB
+[20:28:11.194][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/locale/en-us/setting.lua , size = 23.945 KB
+[20:28:11.197][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/template/debug.lua , size = 5.444 KB
+[20:28:11.200][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/template/coroutine.lua , size = 1.448 KB
+[20:28:11.200][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/template/jit.lua , size = 0.917 KB
+[20:28:11.201][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/template/math.lua , size = 4.312 KB
+[20:28:11.203][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/template/string.buffer.lua , size = 18.156 KB
+[20:28:11.205][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/template/table.clear.lua , size = 0.154 KB
+[20:28:11.205][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/template/string.lua , size = 3.380 KB
+[20:28:11.207][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/template/os.lua , size = 2.756 KB
+[20:28:11.208][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/template/table.lua , size = 2.064 KB
+[20:28:11.209][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/template/bit32.lua , size = 1.594 KB
+[20:28:11.210][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/template/basic.lua , size = 7.816 KB
+[20:28:11.214][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luassert/library/luassert/array.lua , size = 0.326 KB
+[20:28:11.214][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luaecs/library/ecs.lua , size = 11.000 KB
+[20:28:11.217][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luassert/library/luassert/spy.lua , size = 2.278 KB
+[20:28:11.218][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luassert/library/luassert/mock.lua , size = 1.150 KB
+[20:28:11.218][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luassert/library/luassert/spy.d.lua , size = 4.246 KB
+[20:28:11.219][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luassert/library/luassert/stub.lua , size = 1.865 KB
+[20:28:11.220][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luassert/library/luassert/match.lua , size = 11.840 KB
+[20:28:11.223][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luassert/library/luassert.lua , size = 14.181 KB
+[20:28:11.226][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/touch.lua , size = 1.456 KB
+[20:28:11.227][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/event.lua , size = 4.563 KB
+[20:28:11.228][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/joystick.lua , size = 14.190 KB
+[20:28:11.231][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/keyboard.lua , size = 22.717 KB
+[20:28:11.243][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/filesystem.lua , size = 22.715 KB
+[20:28:11.247][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/graphics.lua , size = 160.018 KB
+[20:28:11.281][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/sound.lua , size = 5.808 KB
+[20:28:11.283][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/system.lua , size = 3.604 KB
+[20:28:11.284][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/font.lua , size = 7.587 KB
+[20:28:11.286][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/timer.lua , size = 1.727 KB
+[20:28:11.287][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/mouse.lua , size = 8.757 KB
+[20:28:11.289][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/physics.lua , size = 109.345 KB
+[20:28:11.328][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/math.lua , size = 29.761 KB
+[20:28:11.334][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/window.lua , size = 17.920 KB
+[20:28:11.338][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/video.lua , size = 2.342 KB
+[20:28:11.339][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/data.lua , size = 9.649 KB
+[20:28:11.341][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/audio.lua , size = 33.408 KB
+[20:28:11.348][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/thread.lua , size = 7.083 KB
+[20:28:11.349][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/image.lua , size = 21.372 KB
+[20:28:11.353][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love.lua , size = 10.825 KB
+[20:28:11.355][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/cjson/safe.lua , size = 1.151 KB
+[20:28:11.356][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/prometheus.lua , size = 10.335 KB
+[20:28:11.357][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/ndk.lua , size = 0.045 KB
+[20:28:11.357][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/ngx/semaphore.lua , size = 2.218 KB
+[20:28:11.358][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/ngx/ssl/clienthello.lua , size = 3.490 KB
+[20:28:11.359][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/ngx/ssl/session.lua , size = 2.009 KB
+[20:28:11.359][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/ngx/upstream.lua , size = 0.279 KB
+[20:28:11.359][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/ngx/ocsp.lua , size = 3.444 KB
+[20:28:11.360][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/ngx/re.lua , size = 3.663 KB
+[20:28:11.360][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/ngx/balancer.lua , size = 5.385 KB
+[20:28:11.361][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/ngx/ssl.lua , size = 11.337 KB
+[20:28:11.363][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/ngx/pipe.lua , size = 13.127 KB
+[20:28:11.365][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/ngx/errlog.lua , size = 4.446 KB
+[20:28:11.366][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/ngx/req.lua , size = 0.754 KB
+[20:28:11.366][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/ngx/base64.lua , size = 0.543 KB
+[20:28:11.366][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/ngx/resp.lua , size = 0.688 KB
+[20:28:11.366][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/ngx/process.lua , size = 1.860 KB
+[20:28:11.367][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/jit.lua , size = 1.122 KB
+[20:28:11.367][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/table/nkeys.lua , size = 0.495 KB
+[20:28:11.367][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/table/clone.lua , size = 0.555 KB
+[20:28:11.368][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/table/isempty.lua , size = 0.537 KB
+[20:28:11.368][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/table/isarray.lua , size = 0.469 KB
+[20:28:11.368][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/cjson.lua , size = 16.269 KB
+[20:28:11.370][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/tablepool.lua , size = 1.729 KB
+[20:28:11.371][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/thread/exdata2.lua , size = 0.180 KB
+[20:28:11.371][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/thread/exdata.lua , size = 1.317 KB
+[20:28:11.371][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/sha224.lua , size = 0.178 KB
+[20:28:11.371][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/ngx.lua , size = 174.948 KB
+[20:28:11.410][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/websocket/protocol.lua , size = 5.913 KB
+[20:28:11.412][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/websocket/server.lua , size = 0.455 KB
+[20:28:11.412][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/sha384.lua , size = 0.178 KB
+[20:28:11.412][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/websocket/client.lua , size = 2.722 KB
+[20:28:11.413][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/core/hash.lua , size = 0.117 KB
+[20:28:11.413][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/core/time.lua , size = 0.117 KB
+[20:28:11.413][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/core/regex.lua , size = 1.739 KB
+[20:28:11.414][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/core/response.lua , size = 0.179 KB
+[20:28:11.414][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/core/var.lua , size = 0.114 KB
+[20:28:11.414][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/core/ndk.lua , size = 0.114 KB
+[20:28:11.414][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/core/ctx.lua , size = 0.200 KB
+[20:28:11.415][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/core/shdict.lua , size = 0.123 KB
+[20:28:11.415][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/core/request.lua , size = 0.194 KB
+[20:28:11.415][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/core/worker.lua , size = 0.124 KB
+[20:28:11.415][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/core/uri.lua , size = 0.114 KB
+[20:28:11.416][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/core/base.lua , size = 1.157 KB
+[20:28:11.416][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/core/utils.lua , size = 0.271 KB
+[20:28:11.416][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/core/exit.lua , size = 0.117 KB
+[20:28:11.417][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/core/misc.lua , size = 0.237 KB
+[20:28:11.417][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/core/phase.lua , size = 0.120 KB
+[20:28:11.417][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/limit/conn.lua , size = 0.479 KB
+[20:28:11.417][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/core/base64.lua , size = 0.123 KB
+[20:28:11.417][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/limit/traffic.lua , size = 0.160 KB
+[20:28:11.417][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/limit/count.lua , size = 0.258 KB
+[20:28:11.418][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/shell.lua , size = 2.403 KB
+[20:28:11.418][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/limit/req.lua , size = 0.344 KB
+[20:28:11.418][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/aes.lua , size = 1.878 KB
+[20:28:11.419][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/lrucache.lua , size = 3.297 KB
+[20:28:11.420][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/lock.lua , size = 4.964 KB
+[20:28:11.421][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/sha256.lua , size = 0.178 KB
+[20:28:11.421][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/signal.lua , size = 1.631 KB
+[20:28:11.422][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/mysql.lua , size = 0.560 KB
+[20:28:11.422][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/random.lua , size = 0.170 KB
+[20:28:11.422][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/sha512.lua , size = 0.178 KB
+[20:28:11.422][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/upload.lua , size = 0.226 KB
+[20:28:11.423][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/sha.lua , size = 0.099 KB
+[20:28:11.423][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/redis.lua , size = 1.965 KB
+[20:28:11.423][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/memcached.lua , size = 1.190 KB
+[20:28:11.424][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/string.lua , size = 1.472 KB
+[20:28:11.424][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/lrucache/pureffi.lua , size = 0.838 KB
+[20:28:11.425][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/sha1.lua , size = 0.166 KB
+[20:28:11.425][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/md5.lua , size = 0.353 KB
+[20:28:11.425][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/core.lua , size = 0.103 KB
+[20:28:11.425][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/dns/resolver.lua , size = 15.560 KB
+[20:28:11.428][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/OpenResty/library/resty/upstream/healthcheck.lua , size = 0.229 KB
+[20:28:11.428][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/bee/library/bee/filesystem.lua , size = 3.877 KB
+[20:28:11.430][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/bee/library/bee/platform.lua , size = 0.954 KB
+[20:28:11.430][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/bee/library/bee/thread.lua , size = 0.721 KB
+[20:28:11.431][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/bee/library/bee/subprocess.lua , size = 1.758 KB
+[20:28:11.432][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/example/library/love.lua , size = 0.072 KB
+[20:28:11.432][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/example/plugin.lua , size = 0.367 KB
+[20:28:11.432][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/tilemap.lua , size = 3.405 KB
+[20:28:11.433][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/factory.lua , size = 2.830 KB
+[20:28:11.434][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/built-ins.lua , size = 0.792 KB
+[20:28:11.434][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/collection_factory.lua , size = 3.291 KB
+[20:28:11.434][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/json.lua , size = 0.474 KB
+[20:28:11.435][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/gui.lua , size = 37.633 KB
+[20:28:11.443][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/game_object.lua , size = 19.007 KB
+[20:28:11.446][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/label.lua , size = 0.615 KB
+[20:28:11.446][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/http.lua , size = 0.777 KB
+[20:28:11.447][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/collection_proxy.lua , size = 0.240 KB
+[20:28:11.447][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/model.lua , size = 1.911 KB
+[20:28:11.447][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/sound.lua , size = 5.683 KB
+[20:28:11.449][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/collision_object.lua , size = 8.680 KB
+[20:28:11.450][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/timer.lua , size = 1.765 KB
+[20:28:11.451][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/sprite.lua , size = 1.649 KB
+[20:28:11.451][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/window.lua , size = 2.341 KB
+[20:28:11.452][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/buffer.lua , size = 2.713 KB
+[20:28:11.453][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/system.lua , size = 8.564 KB
+[20:28:11.454][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/base.lua , size = 1.782 KB
+[20:28:11.456][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/vector_math.lua , size = 16.896 KB
+[20:28:11.460][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/zlib.lua , size = 0.425 KB
+[20:28:11.460][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/particle_effects.lua , size = 2.718 KB
+[20:28:11.461][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/luasocket.lua , size = 38.395 KB
+[20:28:11.466][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/resource.lua , size = 7.729 KB
+[20:28:11.468][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/message.lua , size = 1.882 KB
+[20:28:11.469][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/render.lua , size = 21.682 KB
+[20:28:11.472][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/profiler.lua , size = 4.225 KB
+[20:28:11.473][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/html5.lua , size = 1.062 KB
+[20:28:11.473][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Defold/library/image.lua , size = 0.550 KB
+[20:28:11.473][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/global.lua , size = 2.785 KB
+[20:28:11.474][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/ffi-reflect/library/reflect.lua , size = 2.494 KB
+[20:28:11.476][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/sp/SkeletonRenderer.lua , size = 3.669 KB
+[20:28:11.478][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/sp/SkeletonAnimation.lua , size = 3.215 KB
+[20:28:11.479][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/TextBMFont.lua , size = 1.503 KB
+[20:28:11.480][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/Slider.lua , size = 6.250 KB
+[20:28:11.482][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/RichElementImage.lua , size = 1.804 KB
+[20:28:11.483][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/Scale9Sprite.lua , size = 9.171 KB
+[20:28:11.485][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/RelativeLayoutParameter.lua , size = 1.792 KB
+[20:28:11.486][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/TabControl.lua , size = 3.646 KB
+[20:28:11.487][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/RichElementText.lua , size = 3.038 KB
+[20:28:11.488][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/RelativeBox.lua , size = 0.507 KB
+[20:28:11.488][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/ScrollView.lua , size = 14.854 KB
+[20:28:11.493][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/LoadingBar.lua , size = 2.740 KB
+[20:28:11.494][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/RichText.lua , size = 5.298 KB
+[20:28:11.496][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/TextAtlas.lua , size = 2.216 KB
+[20:28:11.497][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/WebView.lua , size = 2.722 KB
+[20:28:11.498][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/EditBox.lua , size = 11.863 KB
+[20:28:11.502][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/VBox.lua , size = 0.444 KB
+[20:28:11.502][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/Layout.lua , size = 8.391 KB
+[20:28:11.504][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/VideoPlayer.lua , size = 3.946 KB
+[20:28:11.506][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/LinearLayoutParameter.lua , size = 1.047 KB
+[20:28:11.506][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/ImageView.lua , size = 2.977 KB
+[20:28:11.507][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/LayoutComponent.lua , size = 9.731 KB
+[20:28:11.510][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/PageView.lua , size = 6.413 KB
+[20:28:11.512][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/TextField.lua , size = 8.536 KB
+[20:28:11.514][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/RadioButton.lua , size = 1.096 KB
+[20:28:11.515][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/RichElement.lua , size = 0.793 KB
+[20:28:11.515][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/RadioButtonGroup.lua , size = 2.799 KB
+[20:28:11.516][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/Helper.lua , size = 2.862 KB
+[20:28:11.517][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/CheckBox.lua , size = 1.060 KB
+[20:28:11.517][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/HBox.lua , size = 0.444 KB
+[20:28:11.518][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/AbstractCheckButton.lua , size = 5.384 KB
+[20:28:11.519][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/RichElementNewLine.lua , size = 0.649 KB
+[20:28:11.520][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/RichElementCustomNode.lua , size = 1.259 KB
+[20:28:11.520][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/TabHeader.lua , size = 2.216 KB
+[20:28:11.521][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/Text.lua , size = 6.893 KB
+[20:28:11.523][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/Widget.lua , size = 16.001 KB
+[20:28:11.528][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/Button.lua , size = 7.547 KB
+[20:28:11.530][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/LayoutParameter.lua , size = 1.051 KB
+[20:28:11.531][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccb/TextureBackend.lua , size = 2.083 KB
+[20:28:11.531][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccui/ListView.lua , size = 10.846 KB
+[20:28:11.557][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccb/Texture2DBackend.lua , size = 3.576 KB
+[20:28:11.558][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccb/Program.lua , size = 1.727 KB
+[20:28:11.559][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccb/TextureCubemapBackend.lua , size = 0.475 KB
+[20:28:11.559][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccb/ProgramState.lua , size = 1.635 KB
+[20:28:11.559][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccb/VertexLayout.lua , size = 1.658 KB
+[20:28:11.560][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseExponentialIn.lua , size = 0.506 KB
+[20:28:11.561][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseCircleActionInOut.lua , size = 0.545 KB
+[20:28:11.562][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/FlipX.lua , size = 0.601 KB
+[20:28:11.562][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Material.lua , size = 2.894 KB
+[20:28:11.563][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TableView.lua , size = 2.298 KB
+[20:28:11.565][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/AutoPolygon.lua , size = 0.413 KB
+[20:28:11.565][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ParticleSmoke.lua , size = 0.820 KB
+[20:28:11.565][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventListenerAssetsManagerEx.lua , size = 0.659 KB
+[20:28:11.566][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/RotateTo.lua , size = 1.013 KB
+[20:28:11.566][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseCubicActionIn.lua , size = 0.506 KB
+[20:28:11.567][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseExponentialInOut.lua , size = 0.535 KB
+[20:28:11.567][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Physics3DConstraint.lua , size = 1.571 KB
+[20:28:11.568][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseExponentialOut.lua , size = 0.516 KB
+[20:28:11.568][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Grid3DAction.lua , size = 0.361 KB
+[20:28:11.569][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/CameraBackgroundColorBrush.lua , size = 1.068 KB
+[20:28:11.569][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventListenerPhysicsContactWithBodies.lua , size = 0.631 KB
+[20:28:11.569][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/FlipY.lua , size = 0.598 KB
+[20:28:11.570][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ParticleSpiral.lua , size = 0.834 KB
+[20:28:11.570][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ControlButton.lua , size = 8.543 KB
+[20:28:11.573][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Liquid.lua , size = 2.235 KB
+[20:28:11.574][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Application.lua , size = 1.189 KB
+[20:28:11.574][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionTurnOffTiles.lua , size = 0.902 KB
+[20:28:11.575][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseBounceInOut.lua , size = 0.486 KB
+[20:28:11.575][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventListener.lua , size = 1.010 KB
+[20:28:11.575][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/BaseLight.lua , size = 0.796 KB
+[20:28:11.576][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Animate3D.lua , size = 2.961 KB
+[20:28:11.577][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Waves3D.lua , size = 2.242 KB
+[20:28:11.578][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Event.lua , size = 0.802 KB
+[20:28:11.578][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventAssetsManagerEx.lua , size = 1.123 KB
+[20:28:11.579][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TargetedAction.lua , size = 1.460 KB
+[20:28:11.579][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionRotoZoom.lua , size = 0.505 KB
+[20:28:11.580][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TMXObjectGroup.lua , size = 2.016 KB
+[20:28:11.581][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionProgressInOut.lua , size = 0.556 KB
+[20:28:11.581][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/SkewTo.lua , size = 0.843 KB
+[20:28:11.581][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Place.lua , size = 0.648 KB
+[20:28:11.582][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Controller.lua , size = 2.073 KB
+[20:28:11.583][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Texture2D.lua , size = 5.399 KB
+[20:28:11.584][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/CameraBackgroundDepthBrush.lua , size = 0.953 KB
+[20:28:11.585][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ParticleRain.lua , size = 0.807 KB
+[20:28:11.585][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/NodeGrid.lua , size = 1.260 KB
+[20:28:11.586][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Terrain.lua , size = 3.620 KB
+[20:28:11.587][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Animate.lua , size = 1.420 KB
+[20:28:11.588][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsWorld.lua , size = 6.802 KB
+[20:28:11.589][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Bundle3D.lua , size = 1.631 KB
+[20:28:11.590][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseBezierAction.lua , size = 0.859 KB
+[20:28:11.591][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionMoveInL.lua , size = 0.842 KB
+[20:28:11.591][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/AssetsManagerEx.lua , size = 2.475 KB
+[20:28:11.592][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventController.lua , size = 1.176 KB
+[20:28:11.592][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsContactPreSolve.lua , size = 0.985 KB
+[20:28:11.593][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/AnimationFrame.lua , size = 1.945 KB
+[20:28:11.593][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PageTurn3D.lua , size = 0.713 KB
+[20:28:11.594][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/AudioProfile.lua , size = 0.187 KB
+[20:28:11.594][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Physics3DShape.lua , size = 1.758 KB
+[20:28:11.595][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsShapeEdgeChain.lua , size = 0.418 KB
+[20:28:11.595][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ParticleMeteor.lua , size = 0.834 KB
+[20:28:11.595][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Renderer.lua , size = 9.653 KB
+[20:28:11.598][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/JumpTo.lua , size = 0.987 KB
+[20:28:11.599][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseCubicActionOut.lua , size = 0.516 KB
+[20:28:11.599][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/WavesTiles3D.lua , size = 2.386 KB
+[20:28:11.600][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsShapeEdgeSegment.lua , size = 1.123 KB
+[20:28:11.600][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsJointMotor.lua , size = 0.767 KB
+[20:28:11.601][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Touch.lua , size = 2.216 KB
+[20:28:11.601][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/DrawNode.lua , size = 6.633 KB
+[20:28:11.603][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/AsyncTaskPool.lua , size = 0.808 KB
+[20:28:11.604][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsJointLimit.lua , size = 1.634 KB
+[20:28:11.605][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Lens3D.lua , size = 2.371 KB
+[20:28:11.605][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ParticleSun.lua , size = 0.793 KB
+[20:28:11.606][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseCubicActionInOut.lua , size = 0.535 KB
+[20:28:11.606][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ActionManager.lua , size = 5.086 KB
+[20:28:11.607][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/RepeatForever.lua , size = 1.188 KB
+[20:28:11.608][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/StopGrid.lua , size = 0.500 KB
+[20:28:11.608][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ShakyTiles3D.lua , size = 1.560 KB
+[20:28:11.609][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ActionFloat.lua , size = 1.166 KB
+[20:28:11.609][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Follow.lua , size = 3.408 KB
+[20:28:11.610][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventCustom.lua , size = 0.395 KB
+[20:28:11.610][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Action.lua , size = 2.990 KB
+[20:28:11.611][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionFlipAngular.lua , size = 0.461 KB
+[20:28:11.611][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionProgressHorizontal.lua , size = 0.595 KB
+[20:28:11.612][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/CardinalSplineBy.lua , size = 0.509 KB
+[20:28:11.612][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/MoveBy.lua , size = 0.901 KB
+[20:28:11.613][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionFadeBL.lua , size = 0.599 KB
+[20:28:11.613][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionFlipX.lua , size = 0.420 KB
+[20:28:11.613][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/SpriteBatchNode.lua , size = 6.760 KB
+[20:28:11.616][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ClippingNode.lua , size = 3.037 KB
+[20:28:11.616][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ParticleData.lua , size = 0.453 KB
+[20:28:11.617][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/LayerColor.lua , size = 2.000 KB
+[20:28:11.618][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/NavMeshObstacle.lua , size = 1.365 KB
+[20:28:11.618][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Properties.lua , size = 11.709 KB
+[20:28:11.620][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/FadeOutBLTiles.lua , size = 0.792 KB
+[20:28:11.621][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Control.lua , size = 2.701 KB
+[20:28:11.622][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Skybox.lua , size = 1.296 KB
+[20:28:11.623][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionSplitCols.lua , size = 1.034 KB
+[20:28:11.623][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionShrinkGrow.lua , size = 0.702 KB
+[20:28:11.623][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseQuadraticActionIn.lua , size = 0.545 KB
+[20:28:11.624][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Skeleton3D.lua , size = 0.938 KB
+[20:28:11.624][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Speed.lua , size = 1.581 KB
+[20:28:11.625][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseBackOut.lua , size = 0.447 KB
+[20:28:11.625][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/FadeOutUpTiles.lua , size = 0.917 KB
+[20:28:11.626][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionJumpZoom.lua , size = 0.505 KB
+[20:28:11.626][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ProtectedNode.lua , size = 3.857 KB
+[20:28:11.627][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsBody.lua , size = 14.614 KB
+[20:28:11.631][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Show.lua , size = 0.450 KB
+[20:28:11.632][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionFlipY.lua , size = 0.420 KB
+[20:28:11.632][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Physics3DPointToPointConstraint.lua , size = 1.821 KB
+[20:28:11.633][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Label.lua , size = 13.549 KB
+[20:28:11.638][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseOut.lua , size = 0.442 KB
+[20:28:11.638][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/LabelAtlas.lua , size = 1.300 KB
+[20:28:11.639][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsShapeEdgePolygon.lua , size = 0.434 KB
+[20:28:11.639][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsShapeCircle.lua , size = 1.737 KB
+[20:28:11.639][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/FastTMXTiledMap.lua , size = 3.218 KB
+[20:28:11.641][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/SpriteFrame.lua , size = 6.188 KB
+[20:28:11.642][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Physics3DWorld.lua , size = 2.023 KB
+[20:28:11.643][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Animation.lua , size = 4.433 KB
+[20:28:11.644][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/CatmullRomBy.lua , size = 0.472 KB
+[20:28:11.645][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ParticleSystemQuad.lua , size = 1.807 KB
+[20:28:11.645][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsShapeBox.lua , size = 0.970 KB
+[20:28:11.646][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/SplitCols.lua , size = 1.263 KB
+[20:28:11.646][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionProgressOutIn.lua , size = 0.556 KB
+[20:28:11.647][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseQuinticActionOut.lua , size = 0.535 KB
+[20:28:11.647][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsContact.lua , size = 0.588 KB
+[20:28:11.648][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ParticleFlower.lua , size = 0.834 KB
+[20:28:11.648][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ScaleTo.lua , size = 1.072 KB
+[20:28:11.649][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventKeyboard.lua , size = 0.354 KB
+[20:28:11.649][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Sequence.lua , size = 0.820 KB
+[20:28:11.649][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ControlSwitch.lua , size = 2.275 KB
+[20:28:11.650][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/UserDefault.lua , size = 3.116 KB
+[20:28:11.652][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionFadeUp.lua , size = 0.599 KB
+[20:28:11.652][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TMXLayer.lua , size = 5.364 KB
+[20:28:11.654][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseSineIn.lua , size = 0.438 KB
+[20:28:11.654][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TiledGrid3D.lua , size = 0.811 KB
+[20:28:11.654][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionSlideInL.lua , size = 0.919 KB
+[20:28:11.655][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsJointGroove.lua , size = 1.404 KB
+[20:28:11.655][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Ripple3D.lua , size = 3.110 KB
+[20:28:11.656][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/FadeOutDownTiles.lua , size = 0.813 KB
+[20:28:11.657][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TintBy.lua , size = 1.117 KB
+[20:28:11.657][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsShape.lua , size = 6.776 KB
+[20:28:11.659][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventListenerMouse.lua , size = 0.407 KB
+[20:28:11.659][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/NavMeshAgent.lua , size = 3.547 KB
+[20:28:11.660][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ActionInterval.lua , size = 1.119 KB
+[20:28:11.661][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventMouse.lua , size = 3.103 KB
+[20:28:11.662][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/FiniteTimeAction.lua , size = 0.576 KB
+[20:28:11.662][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionProgressRadialCCW.lua , size = 0.587 KB
+[20:28:11.662][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionSplitRows.lua , size = 0.591 KB
+[20:28:11.663][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseBounceIn.lua , size = 0.457 KB
+[20:28:11.663][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/MenuItemLabel.lua , size = 1.366 KB
+[20:28:11.664][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ParticleFireworks.lua , size = 0.875 KB
+[20:28:11.664][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Technique.lua , size = 1.156 KB
+[20:28:11.665][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Physics3DObject.lua , size = 1.230 KB
+[20:28:11.665][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseQuinticActionIn.lua , size = 0.525 KB
+[20:28:11.665][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Repeat.lua , size = 1.354 KB
+[20:28:11.666][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/BezierTo.lua , size = 0.466 KB
+[20:28:11.666][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Manifest.lua , size = 0.830 KB
+[20:28:11.667][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/CameraBackgroundBrush.lua , size = 2.170 KB
+[20:28:11.668][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ParticleSystem3D.lua , size = 2.620 KB
+[20:28:11.669][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionFadeDown.lua , size = 0.616 KB
+[20:28:11.669][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/SplitRows.lua , size = 1.229 KB
+[20:28:11.670][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseRateAction.lua , size = 0.979 KB
+[20:28:11.672][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ControlPotentiometer.lua , size = 3.533 KB
+[20:28:11.675][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventDispatcher.lua , size = 5.170 KB
+[20:28:11.678][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/AtlasNode.lua , size = 3.055 KB
+[20:28:11.681][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionPageTurn.lua , size = 1.913 KB
+[20:28:11.683][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/GLView.lua , size = 7.335 KB
+[20:28:11.687][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/FadeTo.lua , size = 0.961 KB
+[20:28:11.689][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionCrossFade.lua , size = 0.693 KB
+[20:28:11.691][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionFadeTR.lua , size = 1.082 KB
+[20:28:11.693][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Grid3D.lua , size = 1.199 KB
+[20:28:11.696][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventListenerTouchOneByOne.lua , size = 0.841 KB
+[20:28:11.698][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventListenerController.lua , size = 0.467 KB
+[20:28:11.700][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/RemoveSelf.lua , size = 0.673 KB
+[20:28:11.702][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseQuadraticActionOut.lua , size = 0.555 KB
+[20:28:11.702][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/DirectionLight.lua , size = 0.886 KB
+[20:28:11.703][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseElastic.lua , size = 0.863 KB
+[20:28:11.703][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventListenerPhysicsContactWithShapes.lua , size = 0.637 KB
+[20:28:11.704][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Blink.lua , size = 0.887 KB
+[20:28:11.704][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionEaseScene.lua , size = 0.452 KB
+[20:28:11.704][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ParticleSnow.lua , size = 0.807 KB
+[20:28:11.705][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsJointGear.lua , size = 1.062 KB
+[20:28:11.705][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsJointRatchet.lua , size = 1.330 KB
+[20:28:11.706][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Timer.lua , size = 0.598 KB
+[20:28:11.706][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/FileUtils.lua , size = 16.089 KB
+[20:28:11.710][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionZoomFlipAngular.lua , size = 0.488 KB
+[20:28:11.710][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Layer.lua , size = 0.352 KB
+[20:28:11.710][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Sprite.lua , size = 12.740 KB
+[20:28:11.715][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/RenderTexture.lua , size = 6.029 KB
+[20:28:11.717][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Node.lua , size = 34.564 KB
+[20:28:11.726][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Menu.lua , size = 1.999 KB
+[20:28:11.727][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TintTo.lua , size = 1.016 KB
+[20:28:11.728][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Physics3DComponent.lua , size = 1.499 KB
+[20:28:11.728][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/FlipX3D.lua , size = 1.307 KB
+[20:28:11.729][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ActionInstant.lua , size = 0.576 KB
+[20:28:11.730][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Component.lua , size = 0.790 KB
+[20:28:11.730][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionZoomFlipY.lua , size = 0.447 KB
+[20:28:11.731][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventListenerPhysicsContactWithGroup.lua , size = 0.576 KB
+[20:28:11.731][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ClippingRectangleNode.lua , size = 1.300 KB
+[20:28:11.731][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseElasticOut.lua , size = 0.505 KB
+[20:28:11.732][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Physics3DRigidBody.lua , size = 6.742 KB
+[20:28:11.734][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/LayerMultiplex.lua , size = 1.159 KB
+[20:28:11.735][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ParticleSystem.lua , size = 19.496 KB
+[20:28:11.741][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/AssetsManager.lua , size = 1.511 KB
+[20:28:11.742][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ToggleVisibility.lua , size = 0.566 KB
+[20:28:11.742][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ProgressFromTo.lua , size = 1.643 KB
+[20:28:11.743][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PolygonInfo.lua , size = 2.018 KB
+[20:28:11.744][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionZoomFlipX.lua , size = 0.447 KB
+[20:28:11.744][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ParticleBatchNode.lua , size = 4.268 KB
+[20:28:11.745][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/BezierBy.lua , size = 0.642 KB
+[20:28:11.746][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseInOut.lua , size = 0.462 KB
+[20:28:11.746][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ParticleExplosion.lua , size = 0.875 KB
+[20:28:11.747][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionSlideInR.lua , size = 0.658 KB
+[20:28:11.747][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Shaky3D.lua , size = 1.515 KB
+[20:28:11.747][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsShapeEdgeBox.lua , size = 0.928 KB
+[20:28:11.748][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Console.lua , size = 0.992 KB
+[20:28:11.748][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ProgressTimer.lua , size = 3.866 KB
+[20:28:11.749][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventListenerCustom.lua , size = 0.366 KB
+[20:28:11.750][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ComponentLua.lua , size = 0.553 KB
+[20:28:11.750][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionProgressVertical.lua , size = 0.579 KB
+[20:28:11.750][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Scheduler.lua , size = 1.086 KB
+[20:28:11.751][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TurnOffTiles.lua , size = 1.593 KB
+[20:28:11.752][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/MenuItem.lua , size = 0.875 KB
+[20:28:11.752][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionProgress.lua , size = 0.506 KB
+[20:28:11.752][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/CatmullRomTo.lua , size = 0.471 KB
+[20:28:11.753][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ScaleBy.lua , size = 0.639 KB
+[20:28:11.753][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ActionEase.lua , size = 0.699 KB
+[20:28:11.753][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/SpriteFrameCache.lua , size = 4.512 KB
+[20:28:11.755][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsJointFixed.lua , size = 0.536 KB
+[20:28:11.755][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseElasticIn.lua , size = 0.495 KB
+[20:28:11.755][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/GLViewImpl.lua , size = 0.675 KB
+[20:28:11.756][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseBounceOut.lua , size = 0.467 KB
+[20:28:11.756][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsJointPin.lua , size = 0.599 KB
+[20:28:11.756][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/AnimationCache.lua , size = 2.083 KB
+[20:28:11.757][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseSineOut.lua , size = 0.447 KB
+[20:28:11.757][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/NavMesh.lua , size = 1.389 KB
+[20:28:11.758][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TextureCube.lua , size = 1.502 KB
+[20:28:11.758][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventListenerAcceleration.lua , size = 0.504 KB
+[20:28:11.759][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionScene.lua , size = 1.222 KB
+[20:28:11.759][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Physics3DSliderConstraint.lua , size = 7.630 KB
+[20:28:11.762][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionSlideInB.lua , size = 0.657 KB
+[20:28:11.763][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/MoveTo.lua , size = 0.779 KB
+[20:28:11.763][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ReuseGrid.lua , size = 0.963 KB
+[20:28:11.764][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseQuarticActionIn.lua , size = 0.525 KB
+[20:28:11.764][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventListenerKeyboard.lua , size = 0.434 KB
+[20:28:11.764][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ActionCamera.lua , size = 0.957 KB
+[20:28:11.765][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ActionTween.lua , size = 1.664 KB
+[20:28:11.766][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TiledGrid3DAction.lua , size = 0.268 KB
+[20:28:11.766][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Waves.lua , size = 2.664 KB
+[20:28:11.767][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Device.lua , size = 1.037 KB
+[20:28:11.767][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/FadeOutTRTiles.lua , size = 1.776 KB
+[20:28:11.768][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/CSLoader.lua , size = 1.554 KB
+[20:28:11.768][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TMXTilesetInfo.lua , size = 0.276 KB
+[20:28:11.769][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionSlideInT.lua , size = 0.657 KB
+[20:28:11.769][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseBounce.lua , size = 0.096 KB
+[20:28:11.769][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ShatteredTiles3D.lua , size = 1.652 KB
+[20:28:11.770][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/MenuItemSprite.lua , size = 1.645 KB
+[20:28:11.770][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/MenuItemAtlasFont.lua , size = 0.563 KB
+[20:28:11.771][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PUParticleSystem3D.lua , size = 5.732 KB
+[20:28:11.773][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TileMapAtlas.lua , size = 1.353 KB
+[20:28:11.774][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Mesh.lua , size = 2.224 KB
+[20:28:11.775][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseBackInOut.lua , size = 0.467 KB
+[20:28:11.775][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionMoveInT.lua , size = 0.499 KB
+[20:28:11.775][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ControlHuePicker.lua , size = 1.486 KB
+[20:28:11.776][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/FlipY3D.lua , size = 0.564 KB
+[20:28:11.777][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Spawn.lua , size = 0.759 KB
+[20:28:11.810][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ShaderCache.lua , size = 1.046 KB
+[20:28:11.810][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsJointRotaryLimit.lua , size = 1.005 KB
+[20:28:11.811][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/RenderState.lua , size = 0.365 KB
+[20:28:11.811][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseCircleActionIn.lua , size = 0.516 KB
+[20:28:11.812][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/LayerRadialGradient.lua , size = 2.853 KB
+[20:28:11.813][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/MenuItemToggle.lua , size = 1.230 KB
+[20:28:11.814][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/CardinalSplineTo.lua , size = 1.215 KB
+[20:28:11.814][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Physics3DHingeConstraint.lua , size = 3.866 KB
+[20:28:11.816][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Physics3D6DofConstraint.lua , size = 2.252 KB
+[20:28:11.817][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionMoveInB.lua , size = 0.499 KB
+[20:28:11.817][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/MenuItemFont.lua , size = 1.579 KB
+[20:28:11.817][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/CallFunc.lua , size = 0.419 KB
+[20:28:11.818][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/AmbientLight.lua , size = 0.414 KB
+[20:28:11.818][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/AttachNode.lua , size = 0.812 KB
+[20:28:11.819][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/OrbitCamera.lua , size = 1.466 KB
+[20:28:11.819][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventAcceleration.lua , size = 0.118 KB
+[20:28:11.819][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseQuinticActionInOut.lua , size = 0.555 KB
+[20:28:11.820][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseQuarticActionOut.lua , size = 0.535 KB
+[20:28:11.820][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseQuarticActionInOut.lua , size = 0.555 KB
+[20:28:11.820][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsSprite3D.lua , size = 0.651 KB
+[20:28:11.821][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/MotionStreak3D.lua , size = 4.334 KB
+[20:28:11.823][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/BillBoard.lua , size = 1.239 KB
+[20:28:11.823][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TMXTiledMap.lua , size = 3.700 KB
+[20:28:11.824][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/JumpTiles3D.lua , size = 2.396 KB
+[20:28:11.825][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/GridAction.lua , size = 0.844 KB
+[20:28:11.826][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ControlSaturationBrightnessPicker.lua , size = 1.279 KB
+[20:28:11.826][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Director.lua , size = 11.481 KB
+[20:28:11.829][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/LayerGradient.lua , size = 3.321 KB
+[20:28:11.830][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ParticleFire.lua , size = 0.807 KB
+[20:28:11.831][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/AudioEngine.lua , size = 5.667 KB
+[20:28:11.833][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseSineInOut.lua , size = 0.467 KB
+[20:28:11.833][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/MenuItemImage.lua , size = 1.020 KB
+[20:28:11.833][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventTouch.lua , size = 0.442 KB
+[20:28:11.834][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsJoint.lua , size = 1.444 KB
+[20:28:11.834][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventListenerTouchAllAtOnce.lua , size = 0.486 KB
+[20:28:11.835][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ControlColourPicker.lua , size = 1.431 KB
+[20:28:11.835][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/JumpBy.lua , size = 1.078 KB
+[20:28:11.836][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ParticleGalaxy.lua , size = 0.834 KB
+[20:28:11.836][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventFocus.lua , size = 0.397 KB
+[20:28:11.837][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Camera.lua , size = 5.797 KB
+[20:28:11.838][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionMoveInR.lua , size = 0.499 KB
+[20:28:11.839][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ProgressTo.lua , size = 1.294 KB
+[20:28:11.839][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TMXLayerInfo.lua , size = 0.334 KB
+[20:28:11.840][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseElasticInOut.lua , size = 0.524 KB
+[20:28:11.840][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventListenerFocus.lua , size = 0.407 KB
+[20:28:11.840][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Ref.lua , size = 0.658 KB
+[20:28:11.841][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TMXMapInfo.lua , size = 4.253 KB
+[20:28:11.843][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseIn.lua , size = 0.433 KB
+[20:28:11.843][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EventListenerPhysicsContact.lua , size = 0.577 KB
+[20:28:11.843][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Twirl.lua , size = 2.854 KB
+[20:28:11.844][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TextureCache.lua , size = 3.850 KB
+[20:28:11.845][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Sprite3DCache.lua , size = 0.557 KB
+[20:28:11.846][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionFade.lua , size = 0.745 KB
+[20:28:11.846][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ControlStepper.lua , size = 2.812 KB
+[20:28:11.847][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/SkewBy.lua , size = 0.798 KB
+[20:28:11.848][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Physics3DConeTwistConstraint.lua , size = 3.545 KB
+[20:28:11.849][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionSceneOriented.lua , size = 0.903 KB
+[20:28:11.849][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/CameraBackgroundSkyBoxBrush.lua , size = 1.569 KB
+[20:28:11.850][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/SpotLight.lua , size = 2.281 KB
+[20:28:11.851][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ShuffleTiles.lua , size = 1.523 KB
+[20:28:11.851][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsJointRotarySpring.lua , size = 1.456 KB
+[20:28:11.852][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Sprite3D.lua , size = 3.923 KB
+[20:28:11.853][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Pass.lua , size = 3.624 KB
+[20:28:11.855][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseCircleActionOut.lua , size = 0.525 KB
+[20:28:11.856][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Scene.lua , size = 1.938 KB
+[20:28:11.856][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/GridBase.lua , size = 2.696 KB
+[20:28:11.857][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/FadeIn.lua , size = 0.581 KB
+[20:28:11.858][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ControlSlider.lua , size = 3.020 KB
+[20:28:11.859][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/MotionStreak.lua , size = 3.785 KB
+[20:28:11.861][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TransitionProgressRadialCW.lua , size = 0.579 KB
+[20:28:11.861][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/DelayTime.lua , size = 0.535 KB
+[20:28:11.862][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsShapePolygon.lua , size = 0.770 KB
+[20:28:11.862][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PointLight.lua , size = 0.720 KB
+[20:28:11.862][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Image.lua , size = 1.985 KB
+[20:28:11.863][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Animation3D.lua , size = 0.772 KB
+[20:28:11.864][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/RotateBy.lua , size = 1.090 KB
+[20:28:11.864][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsJointSpring.lua , size = 1.999 KB
+[20:28:11.865][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Hide.lua , size = 0.449 KB
+[20:28:11.865][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/TableViewCell.lua , size = 0.547 KB
+[20:28:11.866][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/ParallaxNode.lua , size = 1.611 KB
+[20:28:11.866][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/Sprite3DMaterial.lua , size = 1.100 KB
+[20:28:11.867][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseQuadraticActionInOut.lua , size = 0.574 KB
+[20:28:11.867][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/EaseBackIn.lua , size = 0.438 KB
+[20:28:11.868][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsJointDistance.lua , size = 0.918 KB
+[20:28:11.868][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/FastTMXLayer.lua , size = 4.998 KB
+[20:28:11.869][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/FadeOut.lua , size = 0.546 KB
+[20:28:11.870][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/cc/PhysicsContactPostSolve.lua , size = 0.472 KB
+[20:28:11.870][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/RotationSkewFrame.lua , size = 0.319 KB
+[20:28:11.870][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ScaleFrame.lua , size = 0.623 KB
+[20:28:11.871][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/MovementData.lua , size = 0.459 KB
+[20:28:11.871][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/TextureData.lua , size = 0.477 KB
+[20:28:11.872][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/AlphaFrame.lua , size = 0.413 KB
+[20:28:11.872][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ActionTimelineNode.lua , size = 0.868 KB
+[20:28:11.873][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ActionTimelineCache.lua , size = 1.675 KB
+[20:28:11.873][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/AnchorPointFrame.lua , size = 0.478 KB
+[20:28:11.874][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/EventFrame.lua , size = 0.530 KB
+[20:28:11.874][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ZOrderFrame.lua , size = 0.407 KB
+[20:28:11.874][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ActionTimelineData.lua , size = 0.546 KB
+[20:28:11.875][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ContourData.lua , size = 0.360 KB
+[20:28:11.875][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ActionRotationFrame.lua , size = 0.822 KB
+[20:28:11.875][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/BaseData.lua , size = 0.344 KB
+[20:28:11.876][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/PositionFrame.lua , size = 0.702 KB
+[20:28:11.876][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ComAudio.lua , size = 3.022 KB
+[20:28:11.878][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/AnimationData.lua , size = 0.509 KB
+[20:28:11.878][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/FrameData.lua , size = 0.297 KB
+[20:28:11.878][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/RotationFrame.lua , size = 0.438 KB
+[20:28:11.879][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/BoneNode.lua , size = 3.379 KB
+[20:28:11.880][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/MovementBoneData.lua , size = 0.514 KB
+[20:28:11.881][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/BlendFuncFrame.lua , size = 0.466 KB
+[20:28:11.881][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ComController.lua , size = 0.636 KB
+[20:28:11.882][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/SkewFrame.lua , size = 0.522 KB
+[20:28:11.882][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/BoneData.lua , size = 0.453 KB
+[20:28:11.882][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/TextureFrame.lua , size = 0.524 KB
+[20:28:11.883][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/InnerActionFrame.lua , size = 1.219 KB
+[20:28:11.883][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ComRender.lua , size = 0.688 KB
+[20:28:11.884][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ArmatureData.lua , size = 0.478 KB
+[20:28:11.884][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/GUIReader.lua , size = 0.647 KB
+[20:28:11.885][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/SpriteDisplayData.lua , size = 0.371 KB
+[20:28:11.885][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/SceneReader.lua , size = 0.712 KB
+[20:28:11.885][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ArmatureDataManager.lua , size = 3.567 KB
+[20:28:11.887][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/VisibleFrame.lua , size = 0.428 KB
+[20:28:11.887][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ActionFadeFrame.lua , size = 0.736 KB
+[20:28:11.887][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/Timeline.lua , size = 1.200 KB
+[20:28:11.888][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ActionTintFrame.lua , size = 0.741 KB
+[20:28:11.888][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/PlayableFrame.lua , size = 0.444 KB
+[20:28:11.889][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/Armature.lua , size = 3.898 KB
+[20:28:11.890][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ActionScaleFrame.lua , size = 1.040 KB
+[20:28:11.891][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/Skin.lua , size = 1.188 KB
+[20:28:11.892][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ParticleDisplayData.lua , size = 0.279 KB
+[20:28:11.892][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ActionFrame.lua , size = 1.789 KB
+[20:28:11.892][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ComAttribute.lua , size = 1.303 KB
+[20:28:11.893][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/Frame.lua , size = 1.132 KB
+[20:28:11.894][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ArmatureAnimation.lua , size = 3.269 KB
+[20:28:11.895][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/Tween.lua , size = 1.704 KB
+[20:28:11.896][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/Bone.lua , size = 4.267 KB
+[20:28:11.898][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ActionMoveFrame.lua , size = 0.741 KB
+[20:28:11.898][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ActionObject.lua , size = 2.502 KB
+[20:28:11.899][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/BatchNode.lua , size = 0.724 KB
+[20:28:11.900][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/SkeletonNode.lua , size = 1.130 KB
+[20:28:11.900][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ColorFrame.lua , size = 0.413 KB
+[20:28:11.901][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/DisplayManager.lua , size = 2.839 KB
+[20:28:11.902][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ActionManagerEx.lua , size = 1.501 KB
+[20:28:11.902][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ArmatureDisplayData.lua , size = 0.279 KB
+[20:28:11.902][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/DisplayData.lua , size = 0.426 KB
+[20:28:11.903][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ComExtensionData.lua , size = 0.883 KB
+[20:28:11.903][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Cocos4.0/library/ccs/ActionTimeline.lua , size = 5.021 KB
+[20:28:11.905][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/lovr/library/lovr/event.lua , size = 5.917 KB
+[20:28:11.907][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/lovr/library/lovr/filesystem.lua , size = 10.365 KB
+[20:28:11.909][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/lovr/library/lovr/headset.lua , size = 23.334 KB
+[20:28:11.914][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/lovr/library/lovr/physics.lua , size = 61.004 KB
+[20:28:11.930][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/lovr/library/lovr/system.lua , size = 3.189 KB
+[20:28:11.931][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/lovr/library/lovr/graphics.lua , size = 129.702 KB
+[20:28:11.957][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/lovr/library/lovr/timer.lua , size = 1.728 KB
+[20:28:11.958][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/lovr/library/lovr/math.lua , size = 44.854 KB
+[20:28:11.970][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/lovr/library/lovr/data.lua , size = 50.661 KB
+[20:28:11.982][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/lovr/library/lovr/audio.lua , size = 27.805 KB
+[20:28:11.987][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/lovr/library/lovr/thread.lua , size = 6.063 KB
+[20:28:11.989][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/lovr/library/lovr.lua , size = 1.424 KB
+[20:28:11.990][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/lfs/library/lfs.lua , size = 7.396 KB
+[20:28:11.991][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/lovr/library/callback.lua , size = 8.835 KB
+[20:28:11.993][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/skynet/library/skynet.lua , size = 20.195 KB
+[20:28:11.996][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/skynet/library/skynet/habor.lua , size = 1.133 KB
+[20:28:11.997][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/skynet/library/skynet/muliticast.lua , size = 0.699 KB
+[20:28:11.997][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/skynet/library/skynet/netpack.lua , size = 2.357 KB
+[20:28:11.997][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/skynet/library/skynet/cluster.lua , size = 2.379 KB
+[20:28:11.998][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/skynet/library/skynet/sharedata.lua , size = 1.942 KB
+[20:28:11.998][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/skynet/library/skynet/debug.lua , size = 0.272 KB
+[20:28:11.999][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/skynet/library/skynet/sharemap.lua , size = 1.562 KB
+[20:28:11.999][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/skynet/library/skynet/socket.lua , size = 5.656 KB
+[20:28:12.000][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/skynet/library/skynet/socketchannel.lua , size = 2.614 KB
+[20:28:12.001][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/skynet/library/skynet/profile.lua , size = 1.128 KB
+[20:28:12.001][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/skynet/library/skynet/db/mysql.lua , size = 1.143 KB
+[20:28:12.002][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/skynet/library/skynet/db/mongo.lua , size = 5.348 KB
+[20:28:12.004][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/skynet/library/skynet/sharetable.lua , size = 1.434 KB
+[20:28:12.004][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/skynet/library/skynet/db/redis.lua , size = 1.868 KB
+[20:28:12.005][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/skynet/library/skynet/socketdriver.lua , size = 6.013 KB
+[20:28:12.006][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/skynet/library/skynet/crypt.lua , size = 1.754 KB
+[20:28:12.007][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/skynet/library/skynet/stm.lua , size = 1.518 KB
+[20:28:12.007][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/busted/library/busted.lua , size = 6.517 KB
+[20:28:12.009][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/luv_thread_t.lua , size = 0.500 KB
+[20:28:12.009][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/uv_async_t.lua , size = 1.058 KB
+[20:28:12.009][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/errors.lua , size = 15.165 KB
+[20:28:12.012][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/uv.lua , size = 98.128 KB
+[20:28:12.033][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/uv_check_t.lua , size = 0.694 KB
+[20:28:12.033][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/uv_idle_t.lua , size = 1.074 KB
+[20:28:12.034][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/Jass/library/jass/common.lua , size = 438.289 KB
+[20:28:12.174][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/luv_dir_t.lua , size = 1.056 KB
+[20:28:12.175][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/uv_fs_event_t.lua , size = 1.033 KB
+[20:28:12.175][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/uv_tcp_t.lua , size = 3.923 KB
+[20:28:12.176][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/uv_stream_t.lua , size = 5.906 KB
+[20:28:12.178][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/uv_tty_t.lua , size = 1.135 KB
+[20:28:12.178][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/uv_prepare_t.lua , size = 0.716 KB
+[20:28:12.178][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/uv_handle_t.lua , size = 5.129 KB
+[20:28:12.179][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/luv_work_ctx_t.lua , size = 0.530 KB
+[20:28:12.180][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/uv_poll_t.lua , size = 2.646 KB
+[20:28:12.180][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/uv_process_t.lua , size = 0.617 KB
+[20:28:12.180][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/uv_udp_t.lua , size = 5.970 KB
+[20:28:12.182][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/uv_signal_t.lua , size = 2.997 KB
+[20:28:12.183][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/uv_timer_t.lua , size = 1.999 KB
+[20:28:12.184][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/uv_pipe_t.lua , size = 2.988 KB
+[20:28:12.184][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/uv_fs_poll_t.lua , size = 1.140 KB
+[20:28:12.185][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/uv_req_t.lua , size = 0.705 KB
+[20:28:12.185][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/luv/library/types.lua , size = 17.131 KB
+[20:28:12.190][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/builtin.lua , size = 0.302 KB
+[20:28:12.190][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/package.lua , size = 2.699 KB
+[20:28:12.191][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/utf8.lua , size = 2.304 KB
+[20:28:12.192][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/ffi.lua , size = 2.529 KB
+[20:28:12.193][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/bit.lua , size = 1.319 KB
+[20:28:12.194][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/debug.lua , size = 7.310 KB
+[20:28:12.196][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/io.lua , size = 6.364 KB
+[20:28:12.198][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/coroutine.lua , size = 2.541 KB
+[20:28:12.199][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/jit.lua , size = 0.884 KB
+[20:28:12.204][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/math.lua , size = 7.949 KB
+[20:28:12.207][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[20:28:12.207][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
+[20:28:12.207][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[20:28:12.207][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/table/new.lua , size = 0.642 KB
+[20:28:12.207][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/table/clear.lua , size = 0.797 KB
+[20:28:12.207][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/jit/profile.lua , size = 0.348 KB
+[20:28:12.208][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/jit/util.lua , size = 1.984 KB
+[20:28:12.209][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/os.lua , size = 5.600 KB
+[20:28:12.210][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/string.lua , size = 6.310 KB
+[20:28:12.212][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/string/buffer.lua , size = 18.123 KB
+[20:28:12.215][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/table.lua , size = 4.445 KB
+[20:28:12.216][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/bit32.lua , size = 3.927 KB
+[20:28:12.217][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/ffi.lua , size = 2.529 KB
+[20:28:12.219][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/bit.lua , size = 1.319 KB
+[20:28:12.220][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/basic.lua , size = 15.443 KB
+[20:28:12.224][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[20:28:12.224][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[20:28:12.224][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[20:28:12.224][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
+[20:28:12.224][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
+[20:28:12.224][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/jit.lua , size = 0.884 KB
+[20:28:12.224][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table/new.lua , size = 0.642 KB
+[20:28:12.225][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table/clear.lua , size = 0.797 KB
+[20:28:12.225][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/jit/profile.lua , size = 0.348 KB
+[20:28:12.225][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/jit/util.lua , size = 1.984 KB
+[20:28:12.226][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[20:28:12.226][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
+[20:28:12.226][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[20:28:12.226][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string/buffer.lua , size = 18.123 KB
+[20:28:12.229][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/bit32.lua , size = 3.927 KB
+[20:28:12.230][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/whimsical/builtin.lua , size = 0.413 KB
+[20:28:12.230][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/whimsical/rule.lua , size = 3.101 KB
+[20:28:12.231][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/whimsical/basic.lua , size = 1.511 KB
+[20:28:12.232][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/default%20utf8/System.Security.AccessControl.lua , size = 85.320 KB
+[20:28:12.253][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/default%20utf8/System.Runtime.Remoting.Contexts.lua , size = 11.392 KB
+[20:28:12.256][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/default%20utf8/UnityEngine.Apple.ReplayKit.lua , size = 7.503 KB
+[20:28:12.258][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/default%20utf8/UnityEngine.Apple.TV.lua , size = 0.445 KB
+[20:28:12.259][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/default%20utf8/System.Net.WebSockets.lua , size = 12.914 KB
+[20:28:12.262][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/default%20utf8/System.Runtime.Serialization.Json.lua , size = 10.233 KB
+[20:28:12.266][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/default%20utf8/UnityEngine.U2D.lua , size = 19.168 KB
+[20:28:12.270][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/default%20utf8/UnityEngine.Experimental.AI.lua , size = 15.264 KB
+[20:28:12.274][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/default%20utf8/System.Reflection.Emit.lua , size = 132.136 KB
+[20:28:12.312][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/default%20utf8/System.Diagnostics.Contracts.Internal.lua , size = 0.908 KB
+[20:28:12.313][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/default%20utf8/UnityEngine.LowLevel.lua , size = 2.970 KB
+[20:28:12.314][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/default%20utf8/System.Deployment.Internal.lua , size = 1.848 KB
+[20:28:12.314][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/default%20utf8/System.Linq.lua , size = 90.836 KB
+[20:28:12.347][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/default%20utf8/System.Xml.lua , size = 173.105 KB
+[20:28:12.405][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/default%20utf8/UnityEngine.Apple.lua , size = 2.058 KB
+[20:28:12.406][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/default%20utf8/UnityEngineInternal.XR.WSA.lua , size = 0.493 KB
+[20:28:12.407][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///Users/jerry_cy/.config/coc/extensions/coc-lua-data/lua-language-server/meta/default%20utf8/System.Numerics.lua , size = 76.475 KB
