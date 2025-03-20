@@ -130,8 +130,8 @@ alias t='tmux'
 alias ta='tmux a'
 alias gg='git clone'
 alias ga='git add'
-alias gu='git push'
-alias gd='git pull'
+alias gu='git push -u origin master'
+alias gd='git pull origin master'
 alias gs='git status'
 alias gc='git commit -m'
 alias f='fzf'
@@ -145,9 +145,10 @@ alias lzd='lazydocker'
 export TMUX_CONF="$HOME/.config/tmux/tmux.conf"
 #vim
 export MYVIMRC="$HOME/.config/vim/vimrc"
+#nvim
+export MYNEOVIM="$HOME/.config/nvim/init.lua"
 #vscode
 export VSCODE_USER_DATA_DIR="$HOME/.config/.vscode"
-
 #yazi
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd

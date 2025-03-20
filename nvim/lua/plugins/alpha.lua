@@ -17,7 +17,7 @@ dashboard.section.buttons.val = {
   dashboard.button("n", "  New File", ":ene <BAR> startinsert<CR>"),
   dashboard.button("r", "  Recent Files", ":Telescope oldfiles<CR>"),
   dashboard.button("g", "  Find Text", ":Telescope live_grep<CR>"),
-  dashboard.button("c", "  Config", ":e $MYVIMRC<CR>"),
+  dashboard.button("c", "  Config", ":e $MYNEOVIM<CR>"),
   dashboard.button("q", "  Quit", ":qa<CR>"),
 }
 -- Set footer text
