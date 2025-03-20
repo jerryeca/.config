@@ -74,8 +74,7 @@ noremap <silent> I $
 noremap W 5w
 noremap B 5b
 noremap S :w<CR>
-noremap Q :wq<CR>
-noremap q :q!<CR>
+noremap Q :q<CR>
 
 " find pair
 noremap ] n
