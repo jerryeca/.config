@@ -13,36 +13,39 @@ set smartindent
 
 " plugins
 call plug#begin('~/.config/vim/plugged')
+ "Plug 'vim-airline/vim-airline'
+ "Plug 'vim-airline/vim-airline-themes'
  "themes
- Plug 'sainnhe/everforest'
+ "Plug 'dracula/vim'
+ "Plug 'sainnhe/everforest' 
+ "Plug 'morhetz/gruvbox'
+ "Plug 'folke/tokyonight.nvim'
  " vim-polyglot for enhanced syntax highlighting
- "Plug 'sheerun/vim-polyglot'
+ Plug 'sheerun/vim-polyglot'
  " coc.nvim for auto-completion
  Plug 'neoclide/coc.nvim', {'branch': 'release'}
  " airline
- Plug 'vim-airline/vim-airline'
- Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
+
 " set themes
-colorscheme everforest
-autocmd Syntax * highlight Comment cterm=None ctermfg=gray guifg=gray
-highlight Normal guibg=NONE ctermbg=NONE
-highlight NonText guibg=NONE ctermbg=NONE
+"autocmd Syntax * highlight Comment cterm=None ctermfg=gray guifg=gray
+"highlight Normal guibg=NONE ctermbg=NONE
+"highlight NonText guibg=NONE ctermbg=NONE
+
 
 " set airline themes
-let g:airline#extensions#tabline#enabled = 1 " 启用顶部标签栏
-let g:airline#extensions#tabline#formatter = 'default' " 标签栏样式
-let g:airline_theme = 'everforest' " 使用 Everforest 主题
-
-" 设置 Airline 背景透明
-let g:airline_highlighting_cache = 1
-let g:airline#parts#ffenc#skip_expected_string='utf-8[unix]'
-highlight airline_c guibg=NONE ctermbg=NONE
-highlight airline_c_inactive guibg=NONE ctermbg=NONE
-highlight airline_c_insert guibg=NONE ctermbg=NONE
-highlight airline_c_replace guibg=NONE ctermbg=NONE
-highlight airline_c_visual guibg=NONE ctermbg=NONE
+"let g:airline#extensions#tabline#enabled = 1 " 启用顶部标签栏
+"let g:airline#extensions#tabline#formatter = 'default' " 标签栏样式
+"
+"" 设置 Airline 背景透明
+"let g:airline_highlighting_cache = 1
+"let g:airline#parts#ffenc#skip_expected_string='utf-8[unix]'
+"highlight airline_c guibg=NONE ctermbg=NONE
+"highlight airline_c_inactive guibg=NONE ctermbg=NONE
+"highlight airline_c_insert guibg=NONE ctermbg=NONE
+"highlight airline_c_replace guibg=NONE ctermbg=NONE
+"highlight airline_c_visual guibg=NONE ctermbg=NONE
 " set Tab to 4 space
 set tabstop=4
 set shiftwidth=4
@@ -110,8 +113,16 @@ noremap ti :+tabnext<CR>
 noremap <C-i> :next<CR>
 noremap <C-n> :previous<CR>
 
-" use tab to auto completion 
-inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm() : "\<Tab>"
-inoremap <expr> <S-Tab> pumvisible() ? "\<C-n>" : "\<S-Tab>"
+"" use tab to auto completion 
+"inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm() : "\<Tab>"
+"inoremap <expr> <S-Tab> pumvisible() ? "\<C-n>" : "\<S-Tab>"
+" 启用 deoplete 补全
+let g:deoplete#enable_at_startup = 1
 
+" 使用 Tab 和 Shift+Tab 进行补全
+inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+
+" 使用 Enter 键确认补全
+inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"
 
